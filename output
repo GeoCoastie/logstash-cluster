@@ -1,0 +1,1234 @@
+redis-cache-1         | redis
+postgres-1            | postgres
+redis-cache-1         | uid=1000(redis) gid=1000(redis) groups=5(tty),1000(redis),1000(redis)
+postgres-1            | uid=1000(postgres) gid=1000(postgres) groups=1000(postgres),1000(postgres)
+postgres-1            |
+postgres-1            | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres-1            |
+postgres-1            | 2025-04-01 14:44:25.620 UTC [37] LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+postgres-1            | 2025-04-01 14:44:25.620 UTC [37] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+redis-cache-1         | 32:C 01 Apr 2025 14:44:25.299 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+postgres-1            | 2025-04-01 14:44:25.621 UTC [37] LOG:  listening on IPv6 address "::", port 5432
+postgres-1            | 2025-04-01 14:44:25.624 UTC [37] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+redis-cache-1         | 32:C 01 Apr 2025 14:44:25.299 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-cache-1         | 32:C 01 Apr 2025 14:44:25.299 * Redis version=7.4.2, bits=64, commit=00000000, modified=0, pid=32, just started
+redis-cache-1         | 32:C 01 Apr 2025 14:44:25.299 * Configuration loaded
+postgres-1            | 2025-04-01 14:44:25.630 UTC [49] LOG:  database system was interrupted; last known up at 2025-04-01 14:20:45 UTC
+postgres-1            | 2025-04-01 14:44:25.793 UTC [49] LOG:  database system was not properly shut down; automatic recovery in progress
+redis-cache-1         | 32:M 01 Apr 2025 14:44:25.299 * monotonic clock: POSIX clock_gettime
+postgres-1            | 2025-04-01 14:44:25.796 UTC [49] LOG:  redo starts at 0/1D8CEB0
+postgres-1            | 2025-04-01 14:44:25.796 UTC [49] LOG:  invalid record length at 0/1D8CF98: expected at least 24, got 0
+redis-cache-1         |                 _._
+redis-cache-1         |            _.-``__ ''-._
+redis-cache-1         |       _.-``    `.  `_.  ''-._           Redis Community Edition
+postgres-1            | 2025-04-01 14:44:25.796 UTC [49] LOG:  redo done at 0/1D8CF60 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+redis-cache-1         |   .-`` .-```.  ```\/    _.,_ ''-._     7.4.2 (00000000/0) 64 bit
+postgres-1            | 2025-04-01 14:44:25.822 UTC [37] LOG:  database system is ready to accept connections
+redis-cache-1         |  (    '      ,       .-`  | `,    )     Running in standalone mode
+redis-cache-1         |  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+redis-cache-1         |  |    `-._   `._    /     _.-'    |     PID: 32
+redis-cache-1         |   `-._    `-._  `-./  _.-'    _.-'
+redis-cache-1         |  |`-._`-._    `-.__.-'    _.-'_.-'|
+redis-cache-1         |  |    `-._`-._        _.-'_.-'    |           https://redis.io
+redis-cache-1         |   `-._    `-._`-.__.-'_.-'    _.-'
+redis-cache-1         |  |`-._`-._    `-.__.-'    _.-'_.-'|
+redis-cache-1         |  |    `-._`-._        _.-'_.-'    |
+redis-cache-1         |   `-._    `-._`-.__.-'_.-'    _.-'
+redis-cache-1         |       `-._    `-.__.-'    _.-'
+redis-cache-1         |           `-._        _.-'
+redis-cache-1         |               `-.__.-'
+redis-cache-1         |
+redis-cache-1         | 32:M 01 Apr 2025 14:44:25.301 * Server initialized
+redis-cache-1         | 32:M 01 Apr 2025 14:44:25.302 * Ready to accept connections tcp
+freq-1                | usermod: no changes
+pcap-capture-1        | usermod: no changes
+pcap-capture-1        | root
+pcap-capture-1        | uid=0(root) gid=0(root) groups=0(root)
+redis-1               | redis
+redis-1               | uid=1000(redis) gid=1000(redis) groups=5(tty),1000(redis),1000(redis)
+redis-1               | 30:C 01 Apr 2025 14:44:25.300 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1               | 30:C 01 Apr 2025 14:44:25.300 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1               | 30:C 01 Apr 2025 14:44:25.300 * Redis version=7.4.2, bits=64, commit=00000000, modified=0, pid=30, just started
+redis-1               | 30:C 01 Apr 2025 14:44:25.300 * Configuration loaded
+redis-1               | 30:M 01 Apr 2025 14:44:25.301 * monotonic clock: POSIX clock_gettime
+redis-1               |                 _._
+redis-1               |            _.-``__ ''-._
+redis-1               |       _.-``    `.  `_.  ''-._           Redis Community Edition
+redis-1               |   .-`` .-```.  ```\/    _.,_ ''-._     7.4.2 (00000000/0) 64 bit
+redis-1               |  (    '      ,       .-`  | `,    )     Running in standalone mode
+redis-1               |  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+redis-1               |  |    `-._   `._    /     _.-'    |     PID: 30
+redis-1               |   `-._    `-._  `-./  _.-'    _.-'
+redis-1               |  |`-._`-._    `-.__.-'    _.-'_.-'|
+redis-1               |  |    `-._`-._        _.-'_.-'    |           https://redis.io
+redis-1               |   `-._    `-._`-.__.-'_.-'    _.-'
+redis-1               |  |`-._`-._    `-.__.-'    _.-'_.-'|
+redis-1               |  |    `-._`-._        _.-'_.-'    |
+redis-1               |   `-._    `-._`-.__.-'_.-'    _.-'
+redis-1               |       `-._    `-.__.-'    _.-'
+redis-1               |           `-._        _.-'
+redis-1               |               `-.__.-'
+redis-1               |
+redis-1               | 30:M 01 Apr 2025 14:44:25.301 * Server initialized
+redis-1               | 30:M 01 Apr 2025 14:44:25.315 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+redis-1               | 30:M 01 Apr 2025 14:44:25.321 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+redis-1               | 30:M 01 Apr 2025 14:44:25.322 * Ready to accept connections tcp
+logstash-instance3-1  | usermod: no changes
+arkime-live-1         | usermod: no changes
+netbox-1              | usermod: no changes
+keycloak-1            | usermod: no changes
+pcap-capture-1        | 2025-04-01 14:44:25,678 INFO Included extra file "/etc/supervisor.d/capture-groups.conf" during parsing
+pcap-capture-1        | 2025-04-01 14:44:25,678 INFO Included extra file "/etc/supervisor.d/netsniff-lo.conf" during parsing
+pcap-capture-1        | 2025-04-01 14:44:25,679 INFO Included extra file "/etc/supervisor.d/tcpdump-lo.conf" during parsing
+pcap-capture-1        | 2025-04-01 14:44:25,679 INFO Set uid to user 0 succeeded
+pcap-capture-1        | 2025-04-01 14:44:25,684 INFO RPC interface 'supervisor' initialized
+pcap-capture-1        | 2025-04-01 14:44:25,684 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+pcap-capture-1        | 2025-04-01 14:44:25,684 INFO supervisord started with pid 60
+api-1                 | usermod: no changes
+pcap-monitor-1        | usermod: no changes
+suricata-live-1       | usermod: no changes
+zeek-1                | usermod: no changes
+opensearch-1          | usermod: no changes
+logstash-instance2-1  | usermod: no changes
+file-monitor-1        | usermod: no changes
+filebeat-1            | usermod: no changes
+dashboards-helper-1   | usermod: no changes
+dashboards-1          | usermod: no changes
+suricata-1            | usermod: no changes
+zeek-live-1           | usermod: no changes
+logstash-instance1-1  | usermod: no changes
+arkime-1              | usermod: no changes
+freq-1                | freq
+freq-1                | uid=1000(freq) gid=1000(freq) groups=1000(freq),5(tty)
+nginx-proxy-1         | root
+nginx-proxy-1         | uid=0(root) gid=0(root) groups=0(root),0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),11(floppy),20(dialout),26(tape),27(video)
+keycloak-1            | keycloak
+suricata-1            | root
+suricata-1            | uid=0(root) gid=0(root) groups=0(root)
+nginx-proxy-1         | cp: can't stat '/var/local/ca-trust/*': No such file or directory
+keycloak-1            | uid=1000(keycloak) gid=1000(keycloak) groups=1000(keycloak)
+suricata-live-1       | root
+suricata-live-1       | uid=0(root) gid=0(root) groups=0(root)
+api-1                 | yeflask
+api-1                 | uid=1000(yeflask) gid=1000(yeflask) groups=1000(yeflask),5(tty)
+postgres-1            |
+postgres-1            | docker-entrypoint-startdb.sh: running /docker-entrypoint-startdb.d/init-db-from-env.sh
+keycloak-1            | 2:44PM INF Listening at http://0.0.0.0:8080 /...
+postgres-1            | keycloak user already exists
+postgres-1            | ALTER ROLE
+postgres-1            | keycloak database already exists
+postgres-1            | ALTER DATABASE
+postgres-1            | GRANT
+postgres-1            | GRANT
+postgres-1            | ALTER DEFAULT PRIVILEGES
+postgres-1            | netbox user already exists
+postgres-1            | ALTER ROLE
+postgres-1            | netbox database already exists
+postgres-1            | ALTER DATABASE
+postgres-1            | GRANT
+postgres-1            | GRANT
+postgres-1            | ALTER DEFAULT PRIVILEGES
+postgres-1            |
+upload-1              | root
+upload-1              | uid=0(root) gid=0(root) groups=0(root)
+freq-1                | 2025-04-01 14:44:26,720 INFO RPC interface 'supervisor' initialized
+freq-1                | 2025-04-01 14:44:26,720 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+freq-1                | 2025-04-01 14:44:26,721 INFO supervisord started with pid 757
+opensearch-1          | opensearch
+opensearch-1          | uid=1000(opensearch) gid=1000(opensearch) groups=1000(opensearch)
+pcap-monitor-1        | root
+pcap-monitor-1        | uid=0(root) gid=0(root) groups=0(root)
+opensearch-1          |
+nginx-proxy-1         | 2025-04-01 14:44:26,890 INFO Set uid to user 0 succeeded
+nginx-proxy-1         | 2025-04-01 14:44:26,898 INFO RPC interface 'supervisor' initialized
+nginx-proxy-1         | 2025-04-01 14:44:26,898 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+nginx-proxy-1         | 2025-04-01 14:44:26,898 INFO supervisord started with pid 33
+htadmin-1             | root
+htadmin-1             | uid=0(root) gid=0(root) groups=0(root)
+file-monitor-1        | monitor
+file-monitor-1        | uid=1000(monitor) gid=1000(monitor) groups=1000(monitor),5(tty)
+opensearch-1          | OpenSearch Security Plugin does not exist, disable by default
+opensearch-1          | OpenSearch Performance Analyzer Plugin does not exist, disable by default
+pcap-monitor-1        | 2025-04-01 14:44:27,049 INFO Set uid to user 0 succeeded
+pcap-monitor-1        | 2025-04-01 14:44:27,053 INFO RPC interface 'supervisor' initialized
+pcap-monitor-1        | 2025-04-01 14:44:27,053 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+pcap-monitor-1        | 2025-04-01 14:44:27,054 INFO supervisord started with pid 754
+dashboards-helper-1   | helper
+dashboards-helper-1   | uid=1000(helper) gid=1000(helper) groups=1000(helper),5(tty)
+htadmin-1             | 2025-04-01 14:44:27,186 INFO Set uid to user 0 succeeded
+htadmin-1             | 2025-04-01 14:44:27,193 INFO RPC interface 'supervisor' initialized
+htadmin-1             | 2025-04-01 14:44:27,193 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+htadmin-1             | 2025-04-01 14:44:27,193 INFO supervisord started with pid 713
+filebeat-1            | root
+filebeat-1            | uid=0(root) gid=0(root) groups=0(root)
+file-monitor-1        | 2025-04-01 14:44:27,222 INFO RPC interface 'supervisor' initialized
+file-monitor-1        | 2025-04-01 14:44:27,222 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+file-monitor-1        | 2025-04-01 14:44:27,222 INFO supervisord started with pid 760
+dashboards-helper-1   | 2025-04-01 14:44:27,234 INFO RPC interface 'supervisor' initialized
+dashboards-helper-1   | 2025-04-01 14:44:27,234 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+dashboards-helper-1   | 2025-04-01 14:44:27,234 INFO supervisord started with pid 758
+filebeat-1            | 2025-04-01 14:44:27,365 INFO Set uid to user 0 succeeded
+filebeat-1            | 2025-04-01 14:44:27,386 INFO RPC interface 'supervisor' initialized
+filebeat-1            | 2025-04-01 14:44:27,386 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+filebeat-1            | 2025-04-01 14:44:27,386 INFO supervisord started with pid 787
+arkime-live-1         | root
+arkime-live-1         | uid=0(root) gid=0(root) groups=0(root)
+arkime-1              | root
+arkime-1              | uid=0(root) gid=0(root) groups=0(root)
+upload-1              | Creating SSH2 RSA key; this may take some time ...
+upload-1              | 3072 SHA256:OCLye7a5jdBy1B8xpsf3d/tK8vKiAtJTvx1RpsfeX40 root@upload (RSA)
+upload-1              | Creating SSH2 ECDSA key; this may take some time ...
+upload-1              | 256 SHA256:HNs1Znrzp5fqgPruCPnHGOexImCnmLAI8od+JCY7bd4 root@upload (ECDSA)
+upload-1              | Creating SSH2 ED25519 key; this may take some time ...
+upload-1              | 256 SHA256:XZbN56//qMkL3Pnfv4CQfE7BnyunSeKdUf9qiww7nL0 root@upload (ED25519)
+upload-1              | invoke-rc.d: could not determine current runlevel
+upload-1              | invoke-rc.d: policy-rc.d denied execution of restart.
+freq-1                | 2025-04-01 14:44:27,723 INFO spawned: 'freq' with pid 762
+arkime-1              | 2025-04-01 14:44:27,813 INFO Set uid to user 0 succeeded
+arkime-1              | 2025-04-01 14:44:27,817 INFO RPC interface 'supervisor' initialized
+arkime-1              | 2025-04-01 14:44:27,817 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+arkime-1              | 2025-04-01 14:44:27,817 INFO supervisord started with pid 755
+arkime-live-1         | 2025-04-01 14:44:27,861 INFO Set uid to user 0 succeeded
+arkime-live-1         | 2025-04-01 14:44:27,863 INFO RPC interface 'supervisor' initialized
+arkime-live-1         | 2025-04-01 14:44:27,863 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+arkime-live-1         | 2025-04-01 14:44:27,863 INFO supervisord started with pid 754
+nginx-proxy-1         | 2025-04-01 14:44:27,899 INFO spawned: 'logaccess' with pid 111
+nginx-proxy-1         | 2025-04-01 14:44:27,900 INFO spawned: 'logerrors' with pid 112
+nginx-proxy-1         | 2025-04-01 14:44:27,901 INFO spawned: 'nginx' with pid 113
+pcap-monitor-1        | 2025-04-01 14:44:28,055 INFO spawned: 'pcap-publisher' with pid 759
+pcap-monitor-1        | 2025-04-01 14:44:28,056 INFO spawned: 'watch-upload' with pid 760
+htadmin-1             | 2025-04-01 14:44:28,194 INFO spawned: 'nginx' with pid 718
+htadmin-1             | 2025-04-01 14:44:28,196 INFO spawned: 'php' with pid 719
+file-monitor-1        | 2025-04-01 14:44:28,223 INFO spawned: 'cron' with pid 765
+file-monitor-1        | 2025-04-01 14:44:28,225 INFO spawned: 'logger' with pid 766
+file-monitor-1        | 2025-04-01 14:44:28,228 INFO spawned: 'prune' with pid 767
+file-monitor-1        | 2025-04-01 14:44:28,235 INFO spawned: 'watcher' with pid 768
+dashboards-helper-1   | 2025-04-01 14:44:28,237 INFO spawned: 'cron' with pid 763
+dashboards-helper-1   | 2025-04-01 14:44:28,239 INFO spawned: 'idxinit' with pid 764
+dashboards-helper-1   | 2025-04-01 14:44:28,240 INFO spawned: 'maps' with pid 765
+htadmin-1             | 2:44PM INF Listening at http://0.0.0.0:80 /...
+upload-1              | 2025-04-01 14:44:28,266 INFO Set uid to user 0 succeeded
+upload-1              | 2025-04-01 14:44:28,272 INFO RPC interface 'supervisor' initialized
+upload-1              | 2025-04-01 14:44:28,272 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+upload-1              | 2025-04-01 14:44:28,272 INFO supervisord started with pid 767
+dashboards-helper-1   | 2025-04-01T14:44:28Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+dashboards-helper-1   | 2025-04-01 14:44:28,278 INFO success: idxinit entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dashboards-helper-1   | 2025-04-01 14:44:28,278 INFO success: maps entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dashboards-helper-1   | 2025-04-01T14:44:28Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+file-monitor-1        | 2025-04-01T14:44:28Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+file-monitor-1        | 2025-04-01 14:44:28,303 INFO success: prune entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+file-monitor-1        | 2025-04-01T14:44:28Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+dashboards-helper-1   | 2:44PM INF Listening at http://0.0.0.0:28991 /...
+filebeat-1            | 2025-04-01 14:44:28,388 INFO spawned: 'cron' with pid 792
+filebeat-1            | 2025-04-01 14:44:28,392 INFO spawned: 'filebeat' with pid 793
+filebeat-1            | 2025-04-01 14:44:28,395 INFO spawned: 'filebeat-tcp' with pid 794
+filebeat-1            | 2025-04-01 14:44:28,399 INFO spawned: 'watch-upload' with pid 796
+filebeat-1            | 2025-04-01T14:44:28Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+filebeat-1            | 2025-04-01 14:44:28,433 INFO success: filebeat entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+filebeat-1            | 2025-04-01T14:44:28Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+filebeat-1            | 2025-04-01T14:44:28.794Z Home path: [/usr/share/filebeat-logs] Config path: [/usr/share/filebeat-logs] Data path: [/usr/share/filebeat-logs/data] Logs path: [/usr/share/filebeat-logs/logs]
+filebeat-1            | 2025-04-01T14:44:28.797Z Beat ID: 31711039-5ae3-4c4e-b816-1bb5d22e16ca
+filebeat-1            | 2025-04-01T14:44:28.800Z Syscall filter successfully installed
+filebeat-1            | 2025-04-01T14:44:28.801Z Setup Beat: filebeat; Version: 8.17.0
+filebeat-1            | 2025-04-01T14:44:28.801Z {"message": "Beat info", "system_info": {"beat": {"path": {"config": "/usr/share/filebeat-logs", "data": "/usr/share/filebeat-logs/data", "home": "/usr/share/filebeat-logs", "logs": "/usr/share/filebeat-logs/logs"}, "type": "filebeat", "uuid": "31711039-5ae3-4c4e-b816-1bb5d22e16ca"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:28.801Z {"message": "Build info", "system_info": {"build": {"commit": "092f0eae4d0d343cc3a142f671c2a0428df67840", "libbeat": "8.17.0", "time": "2024-12-11T11:11:55.000Z", "version": "8.17.0"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:28.802Z {"message": "Go runtime info", "system_info": {"go": {"os": "linux", "arch": "amd64", "max_procs": 8, "version": "go1.22.9"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:28.802Z {"message": "Host info", "system_info": {"host": {"architecture": "x86_64", "native_architecture": "x86_64", "boot_time": "2025-04-01T14:07:07Z", "containerized": false, "name": "filebeat", "ip": ["127.0.0.1", "172.18.0.7", "::1"], "kernel_version": "6.8.0-57-generic", "mac": ["9e:fe:cb:6a:5b:e9"], "os": {"type": "linux", "family": "debian", "platform": "ubuntu", "name": "Ubuntu", "version": "24.04.2 LTS (Noble Numbat)", "major": 24, "minor": 4, "patch": 2, "codename": "noble"}, "timezone": "UTC", "timezone_offset_sec": 0}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:28.803Z {"message": "Process info", "system_info": {"process": {"capabilities": {"inheritable": null, "permitted": null, "effective": null, "bounding": ["chown", "dac_override", "fowner", "fsetid", "kill", "setgid", "setuid", "setpcap", "net_bind_service", "net_raw", "sys_chroot", "mknod", "audit_write", "setfcap"], "ambient": null}, "cwd": "/usr/share/filebeat-logs", "exe": "/usr/share/filebeat/filebeat", "name": "filebeat", "pid": 812, "ppid": 793, "seccomp": {"mode": "filter", "no_new_privs": true}, "start_time": "2025-04-01T14:44:28.330Z"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:28.809Z Beat name: malcolm1
+filebeat-1            | 2025-04-01T14:44:28.811Z Enabled modules/filesets:
+filebeat-1            | 2025-04-01T14:44:28.811Z Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+filebeat-1            | 2025-04-01T14:44:28.812Z filebeat start running.
+filebeat-1            | 2025-04-01T14:44:28.817Z Finished loading transaction log file for '/usr/share/filebeat-logs/data/registry/filebeat'. Active transaction id=0
+filebeat-1            | 2025-04-01T14:44:28.818Z Finished loading transaction log file for '/usr/share/filebeat-logs/data/registry/filebeat'. Active transaction id=0
+arkime-1              | 2025-04-01 14:44:28,819 INFO spawned: 'initialize' with pid 796
+filebeat-1            | 2025-04-01T14:44:28.820Z Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+filebeat-1            | 2025-04-01T14:44:28.820Z States Loaded from registrar: 0
+filebeat-1            | 2025-04-01T14:44:28.820Z Loading Inputs: 6
+filebeat-1            | 2025-04-01T14:44:28.820Z starting input, keys present on the config: [filebeat.inputs.0.clean_inactive filebeat.inputs.0.clean_removed filebeat.inputs.0.close_eof filebeat.inputs.0.close_inactive filebeat.inputs.0.close_removed filebeat.inputs.0.close_renamed filebeat.inputs.0.compression_level filebeat.inputs.0.exclude_files.0 filebeat.inputs.0.exclude_lines.0 filebeat.inputs.0.fields_under_root filebeat.inputs.0.ignore_older filebeat.inputs.0.paths.0 filebeat.inputs.0.scan_frequency filebeat.inputs.0.symlinks filebeat.inputs.0.tags.0 filebeat.inputs.0.type]
+arkime-1              | 2025-04-01 14:44:28,823 INFO spawned: 'pcap-arkime' with pid 797
+filebeat-1            | 2025-04-01T14:44:28.825Z Configured paths: [/zeek/current/*.log]
+arkime-1              | 2025-04-01 14:44:28,827 INFO spawned: 'viewer' with pid 798
+filebeat-1            | 2025-04-01T14:44:28.825Z Starting input (ID: 14792403151094495097)
+filebeat-1            | 2025-04-01T14:44:28.825Z starting input, keys present on the config: [filebeat.inputs.1.clean_inactive filebeat.inputs.1.clean_removed filebeat.inputs.1.close_eof filebeat.inputs.1.close_inactive filebeat.inputs.1.close_removed filebeat.inputs.1.close_renamed filebeat.inputs.1.compression_level filebeat.inputs.1.exclude_lines.0 filebeat.inputs.1.fields_under_root filebeat.inputs.1.ignore_older filebeat.inputs.1.paths.0 filebeat.inputs.1.scan_frequency filebeat.inputs.1.symlinks filebeat.inputs.1.tags.0 filebeat.inputs.1.type]
+filebeat-1            | 2025-04-01T14:44:28.825Z Configured paths: [/zeek/live/spool/logger-*/*.log]
+filebeat-1            | 2025-04-01T14:44:28.825Z Starting input (ID: 17424728247939255894)
+arkime-1              | 2025-04-01 14:44:28,830 INFO spawned: 'wise' with pid 803
+filebeat-1            | 2025-04-01T14:44:28.825Z starting input, keys present on the config: [filebeat.inputs.2.clean_inactive filebeat.inputs.2.clean_removed filebeat.inputs.2.close_eof filebeat.inputs.2.close_inactive filebeat.inputs.2.close_removed filebeat.inputs.2.close_renamed filebeat.inputs.2.compression_level filebeat.inputs.2.exclude_lines.0 filebeat.inputs.2.fields_under_root filebeat.inputs.2.ignore_older filebeat.inputs.2.paths.0 filebeat.inputs.2.scan_frequency filebeat.inputs.2.symlinks filebeat.inputs.2.tags.0 filebeat.inputs.2.type]
+filebeat-1            | 2025-04-01T14:44:28.828Z Configured paths: [/zeek/current/signatures(_carved*).log]
+filebeat-1            | 2025-04-01T14:44:28.828Z Starting input (ID: 17708124363748150562)
+filebeat-1            | 2025-04-01T14:44:28.828Z starting input, keys present on the config: [filebeat.inputs.3.clean_inactive filebeat.inputs.3.clean_removed filebeat.inputs.3.close_eof filebeat.inputs.3.close_inactive filebeat.inputs.3.close_removed filebeat.inputs.3.close_renamed filebeat.inputs.3.compression_level filebeat.inputs.3.fields_under_root filebeat.inputs.3.ignore_older filebeat.inputs.3.paths.0 filebeat.inputs.3.scan_frequency filebeat.inputs.3.symlinks filebeat.inputs.3.tags.0 filebeat.inputs.3.type]
+filebeat-1            | 2025-04-01T14:44:28.828Z Configured paths: [/suricata/suricata-*/eve*.json]
+filebeat-1            | 2025-04-01T14:44:28.828Z Starting input (ID: 11052841049741711284)
+filebeat-1            | 2025-04-01T14:44:28.828Z starting input, keys present on the config: [filebeat.inputs.4.clean_inactive filebeat.inputs.4.clean_removed filebeat.inputs.4.close_eof filebeat.inputs.4.close_inactive filebeat.inputs.4.close_removed filebeat.inputs.4.close_renamed filebeat.inputs.4.compression_level filebeat.inputs.4.fields_under_root filebeat.inputs.4.ignore_older filebeat.inputs.4.paths.0 filebeat.inputs.4.scan_frequency filebeat.inputs.4.symlinks filebeat.inputs.4.tags.0 filebeat.inputs.4.type]
+filebeat-1            | 2025-04-01T14:44:28.829Z Configured paths: [/suricata/live/eve*.json]
+filebeat-1            | 2025-04-01T14:44:28.829Z Starting input (ID: 13403698867348159062)
+filebeat-1            | 2025-04-01T14:44:28.829Z starting input, keys present on the config: [filebeat.inputs.5.clean_inactive filebeat.inputs.5.clean_removed filebeat.inputs.5.close_eof filebeat.inputs.5.close_inactive filebeat.inputs.5.close_removed filebeat.inputs.5.close_renamed filebeat.inputs.5.compression_level filebeat.inputs.5.ignore_older filebeat.inputs.5.json.add_error_key filebeat.inputs.5.json.expand_keys filebeat.inputs.5.json.ignore_decoding_error filebeat.inputs.5.json.keys_under_root filebeat.inputs.5.paths.0 filebeat.inputs.5.scan_frequency filebeat.inputs.5.symlinks filebeat.inputs.5.tags.0 filebeat.inputs.5.type]
+filebeat-1            | 2025-04-01T14:44:28.829Z Configured paths: [/zeek/current/*.evtx.json]
+filebeat-1            | 2025-04-01T14:44:28.829Z Starting input (ID: 3532324256681338807)
+filebeat-1            | 2025-04-01T14:44:28.829Z Loading and starting Inputs completed. Enabled inputs: 6
+filebeat-1            | 2025-04-01T14:44:28.830Z Harvester started for paths: [/zeek/current/signatures(_carved*).log]: /zeek/current/signatures(_carved).log
+arkime-live-1         | 2025-04-01 14:44:28,868 INFO spawned: 'viewer' with pid 802
+arkime-live-1         | 2025-04-01 14:44:28,870 INFO spawned: 'wise' with pid 803
+upload-1              | 2025-04-01 14:44:29,275 INFO spawned: 'cron' with pid 927
+upload-1              | 2025-04-01 14:44:29,276 INFO spawned: 'nginx' with pid 928
+upload-1              | 2025-04-01 14:44:29,277 INFO spawned: 'php' with pid 929
+upload-1              | 2025-04-01 14:44:29,278 INFO spawned: 'sshd' with pid 930
+upload-1              | 2025-04-01T14:44:29Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+upload-1              | 2025-04-01T14:44:29Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+file-monitor-1        | 2025-04-01 14:44:29,305 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dashboards-helper-1   | 2025-04-01 14:44:29,319 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+logstash-instance1-1  | logstash
+logstash-instance3-1  | logstash
+logstash-instance3-1  | uid=1000(logstash) gid=1000(logstash) groups=1000(logstash),5(tty)
+logstash-instance1-1  | uid=1000(logstash) gid=1000(logstash) groups=1000(logstash),5(tty)
+logstash-instance2-1  | logstash
+htadmin-1             | 2025-04-01 14:44:29,356 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+logstash-instance2-1  | uid=1000(logstash) gid=1000(logstash) groups=1000(logstash),5(tty)
+logstash-instance3-1  | 2025-04-01 14:44:29,624 INFO RPC interface 'supervisor' initialized
+logstash-instance3-1  | 2025-04-01 14:44:29,624 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+logstash-instance3-1  | 2025-04-01 14:44:29,625 INFO supervisord started with pid 789
+logstash-instance1-1  | 2025-04-01 14:44:29,628 INFO RPC interface 'supervisor' initialized
+logstash-instance1-1  | 2025-04-01 14:44:29,628 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+logstash-instance1-1  | 2025-04-01 14:44:29,630 INFO supervisord started with pid 788
+logstash-instance2-1  | 2025-04-01 14:44:29,632 INFO RPC interface 'supervisor' initialized
+logstash-instance2-1  | 2025-04-01 14:44:29,633 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+logstash-instance2-1  | 2025-04-01 14:44:29,633 INFO supervisord started with pid 789
+opensearch-1          | WARNING: Using incubator modules: jdk.incubator.vector
+opensearch-1          | WARNING: System::setSecurityManager has been called by org.opensearch.bootstrap.OpenSearch (file:/usr/share/opensearch/lib/opensearch-2.19.1.jar)
+opensearch-1          | WARNING: Please consider reporting this to the maintainers of org.opensearch.bootstrap.OpenSearch
+opensearch-1          | WARNING: System::setSecurityManager will be removed in a future release
+arkime-1              | 2025-04-01 14:44:29,833 INFO success: initialize entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+arkime-1              | 2025-04-01 14:44:29,833 INFO success: viewer entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+arkime-1              | 2025-04-01 14:44:29,833 INFO success: wise entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+filebeat-1            | 2025-04-01 14:44:29,834 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+arkime-live-1         | 2025-04-01 14:44:29,872 INFO success: viewer entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+arkime-live-1         | 2025-04-01 14:44:29,872 INFO success: wise entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+upload-1              | 2025-04-01 14:44:30,305 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+upload-1              | 2025-04-01 14:44:30,305 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+upload-1              | 2025-04-01 14:44:30,305 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+logstash-instance2-1  | 2025-04-01 14:44:30,634 INFO spawned: 'logstash' with pid 795
+logstash-instance3-1  | 2025-04-01 14:44:30,633 INFO spawned: 'logstash' with pid 801
+logstash-instance1-1  | 2025-04-01 14:44:30,636 INFO spawned: 'logstash' with pid 800
+opensearch-1          | Apr 01, 2025 2:44:31 PM sun.util.locale.provider.LocaleProviderAdapter <clinit>
+opensearch-1          | WARNING: COMPAT locale provider will be removed in a future release
+logstash-instance2-1  | 2025-04-01 14:44:31,636 INFO success: logstash entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+logstash-instance3-1  | 2025-04-01 14:44:31,637 INFO success: logstash entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+logstash-instance1-1  | 2025-04-01 14:44:31,637 INFO success: logstash entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+opensearch-1          | WARNING: System::setSecurityManager has been called by org.opensearch.bootstrap.Security (file:/usr/share/opensearch/lib/opensearch-2.19.1.jar)
+opensearch-1          | WARNING: Please consider reporting this to the maintainers of org.opensearch.bootstrap.Security
+opensearch-1          | WARNING: System::setSecurityManager will be removed in a future release
+freq-1                | 2025-04-01 14:44:32,727 INFO success: freq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:44:32,936 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:44:27 [emerg] 113#113: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+dashboards-1          | opensearch-dashboards
+dashboards-1          | uid=1000(opensearch-dashboards) gid=1000(opensearch-dashboards) groups=1000(opensearch-dashboards),5(tty)
+nginx-proxy-1         | 2025-04-01 14:44:34,909 INFO spawned: 'nginx' with pid 120
+opensearch-1          | [2025-04-01T14:44:35,136][WARN ][stderr                   ] [opensearch] WARNING: A restricted method in java.lang.foreign.Linker has been called
+opensearch-1          | [2025-04-01T14:44:35,139][WARN ][stderr                   ] [opensearch] WARNING: java.lang.foreign.Linker::downcallHandle has been called by the unnamed module
+opensearch-1          | [2025-04-01T14:44:35,139][WARN ][stderr                   ] [opensearch] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for this module
+netbox-1              | ubuntu
+netbox-1              | uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),5(tty),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev)
+logstash-instance3-1  |
+logstash-instance2-1  |
+logstash-instance1-1  |
+netbox-1              | 2:44PM INF Listening at http://0.0.0.0:8080 /...
+logstash-instance3-1  | Using bundled JDK: /usr/share/logstash/jdk
+logstash-instance1-1  | Using bundled JDK: /usr/share/logstash/jdk
+logstash-instance2-1  | Using bundled JDK: /usr/share/logstash/jdk
+arkime-1              | 2025-04-01 14:44:37 URL:https://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.csv [23323/23323] -> "ipv4-address-space.csv_new" [1]
+nginx-proxy-1         | 2025-04-01 14:44:37,914 INFO success: logaccess entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+nginx-proxy-1         | 2025-04-01 14:44:37,914 INFO success: logerrors entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:44:39,950 WARN exited: nginx (exit status 1; not expected)
+arkime-1              | 2025-04-01 14:44:40 URL:https://www.wireshark.org/download/automated/data/manuf [2904459/2904459] -> "oui.txt_new" [1]
+arkime-1              | Giving opensearch-local time to start...
+nginx-proxy-1         | 2025/04/01 14:44:34 [emerg] 120#120: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+opensearch-1          | [2025-04-01T14:44:42,533][WARN ][o.o.s.p.SQLPlugin        ] [opensearch] Master key is a required config for using create and update datasource APIs. Please set plugins.query.datasources.encryption.masterkey config in opensearch.yml in all the cluster nodes. More details can be found here: https://github.com/opensearch-project/sql/blob/main/docs/user/ppl/admin/datasources.rst#master-key-config-for-encrypting-credential-information
+nginx-proxy-1         | 2025-04-01 14:44:42,923 INFO spawned: 'nginx' with pid 121
+htadmin-1             | 2025-04-01 14:44:43,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+dashboards-1          |   log   [14:44:44.190] [info][plugins-service] Plugin "applicationConfig" is disabled.
+dashboards-1          |   log   [14:44:44.198] [info][plugins-service] Plugin "dataSource" is disabled.
+dashboards-1          |   log   [14:44:44.199] [info][plugins-service] Plugin "cspHandler" is disabled.
+dashboards-1          |   log   [14:44:44.200] [info][plugins-service] Plugin "workspace" is disabled.
+dashboards-1          |   log   [14:44:44.201] [info][plugins-service] Plugin "visTypeXy" is disabled.
+dashboards-1          |   log   [14:44:44.336] [info][dynamic-config-service] registering middleware to inject context to AsyncLocalStorage
+upload-1              | 2025-04-01 14:44:44,331 INFO success: nginx entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+dashboards-1          |   log   [14:44:44.430] [info][plugins-system] Setting up [56] plugins: [usageCollection,opensearchDashboardsUsageCollection,opensearchDashboardsLegacy,mapsLegacy,expressions,data,savedObjects,share,opensearchUiShared,queryEnhancements,legacyExport,embeddable,dataExplorer,home,dashboard,visualizations,visTypeVega,visBuilder,visTypeTimeline,tileMap,visTypeTable,visTypeMarkdown,visAugmenter,inputControlVis,regionMap,transformVis,ganttChartDashboards,visualize,apmOss,management,indexPatternManagement,dataSourceManagement,securityAnalyticsDashboards,searchRelevanceDashboards,reportsDashboards,flowFrameworkDashboards,customImportMapDashboards,indexManagementDashboards,mlCommonsDashboards,assistantDashboards,anomalyDetectionDashboards,alertingDashboards,queryInsightsDashboards,notificationsDashboards,console,advancedSettings,charts,observabilityDashboards,queryWorkbenchDashboards,visTypeVislib,visTypeTimeseries,visTypeTagcloud,visTypeMetric,discover,savedObjectsManagement,bfetch]
+dashboards-1          |   log   [14:44:44.530] [info][plugins][queryEnhancements] queryEnhancements: Setup complete
+arkime-1              | 2025-04-01 14:44:44,728 INFO success: pcap-arkime entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+dashboards-1          |   log   [14:44:45.074] [info][dynamic-config-service] initiating start()
+dashboards-1          |   log   [14:44:45.075] [info][dynamic-config-service] finished start()
+dashboards-1          |   log   [14:44:45.147] [info][savedobjects-service] Waiting until all OpenSearch nodes are compatible with OpenSearch Dashboards before starting saved objects migrations...
+dashboards-1          |   log   [14:44:45.176] [error][data][opensearch] [ConnectionError]: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |   log   [14:44:45.212] [error][savedobjects-service] Unable to retrieve version information from OpenSearch nodes.
+opensearch-1          | [2025-04-01T14:44:45,633][WARN ][o.o.g.DanglingIndicesState] [opensearch] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+dashboards-1          |   log   [14:44:47.669] [error][data][opensearch] [ConnectionError]: connect ECONNREFUSED 172.18.0.12:9200
+suricata-1            | 2025-04-01 14:44:47,974 INFO Set uid to user 0 succeeded
+suricata-1            | 2025-04-01 14:44:47,979 INFO RPC interface 'supervisor' initialized
+suricata-1            | 2025-04-01 14:44:47,979 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+suricata-1            | 2025-04-01 14:44:47,979 INFO supervisord started with pid 760
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:44:48,015 WARN exited: nginx (exit status 1; not expected)
+suricata-live-1       | 2025-04-01 14:44:48,234 INFO Set uid to user 0 succeeded
+suricata-live-1       | 2025-04-01 14:44:48,237 INFO RPC interface 'supervisor' initialized
+suricata-live-1       | 2025-04-01 14:44:48,237 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+suricata-live-1       | 2025-04-01 14:44:48,237 INFO supervisord started with pid 760
+nginx-proxy-1         | 2025/04/01 14:44:42 [emerg] 121#121: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+suricata-1            | 2025-04-01 14:44:48,980 INFO spawned: 'cron' with pid 798
+suricata-1            | 2025-04-01 14:44:48,984 INFO spawned: 'pcap-suricata' with pid 799
+suricata-1            | 2025-04-01 14:44:48,985 INFO spawned: 'socket-suricata' with pid 800
+suricata-1            | Notice: suricata: This is Suricata version 7.0.8 RELEASE running in SYSTEM mode
+suricata-1            | Info: cpu: CPUs/cores online: 8
+suricata-1            | Info: suricata: Setting engine mode to IDS mode by default
+suricata-1            | Info: exception-policy: master exception-policy set to: auto
+suricata-1            | Info: app-layer-ftp: FTP memcap: 67108864
+suricata-1            | 2025-04-01T14:44:49Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+suricata-1            | 2025-04-01T14:44:49Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+suricata-1            | Info: coredump-config: Max dump is 0
+suricata-1            | Info: coredump-config: Core dump setting attempted is 0
+suricata-1            | Info: coredump-config: Core dump size set to 0
+opensearch-1          | [2025-04-01T14:44:49,182][WARN ][o.o.o.i.ObservabilityIndex] [opensearch] message: index [.opensearch-observability/sDYcq9UIRC6Lq7QHMb6zcg] already exists
+suricata-live-1       | 2025-04-01 14:44:49,239 INFO spawned: 'cron' with pid 807
+suricata-live-1       | 2025-04-01T14:44:49Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+suricata-live-1       | 2025-04-01T14:44:49Z {"level": "info", "msg": "read crontab: /etc/crontab"}
+opensearch-1          | [2025-04-01T14:44:49,278][WARN ][o.o.s.SecurityAnalyticsPlugin] [opensearch] Failed to initialize LogType config index and builtin log types
+suricata-1            | 2025-04-01 14:44:50,116 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+suricata-live-1       | 2025-04-01 14:44:50,255 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dashboards-1          |   log   [14:44:50.302] [info][savedobjects-service] Starting saved objects migrations
+opensearch-1          | [2025-04-01T14:44:50,443][WARN ][r.suppressed             ] [opensearch] path: /.kibana/_count, params: {index=.kibana}
+opensearch-1          | org.opensearch.action.search.SearchPhaseExecutionException: all shards failed
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:775) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:395) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:815) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:548) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction.lambda$performPhaseOnShard$0(AbstractSearchAsyncAction.java:290) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.action.search.AbstractSearchAsyncAction$2.doRun(AbstractSearchAsyncAction.java:373) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:52) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.threadpool.TaskAwareRunnable.doRun(TaskAwareRunnable.java:78) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:52) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:59) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:1014) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at org.opensearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:52) [opensearch-2.19.1.jar:2.19.1]
+opensearch-1          |         at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]
+opensearch-1          |         at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]
+opensearch-1          |         at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+dashboards-1          |   log   [14:44:50.462] [error][data][opensearch] [search_phase_execution_exception]: all shards failed
+dashboards-1          |   log   [14:44:50.463] [warning][savedobjects-service] Unable to connect to OpenSearch. Error: search_phase_execution_exception:
+nginx-proxy-1         | 2025-04-01 14:44:51,912 INFO spawned: 'nginx' with pid 122
+arkime-1              | opensearch-local is up and healthy at http://opensearch:9200
+arkime-1              | opensearch-local is running!
+arkime-1              | Giving WISE time to start...
+api-1                 | opensearch-local is up and healthy at http://opensearch:9200
+filebeat-1            | opensearch-local is up and healthy at http://opensearch:9200
+api-1                 | [2025-04-01 14:44:53 +0000] [757] [INFO] Starting gunicorn 23.0.0
+api-1                 | [2025-04-01 14:44:53 +0000] [757] [INFO] Listening at: http://0.0.0.0:5000 (757)
+api-1                 | [2025-04-01 14:44:53 +0000] [757] [INFO] Using worker: sync
+api-1                 | [2025-04-01 14:44:53 +0000] [888] [INFO] Booting worker with pid: 888
+dashboards-1          |   log   [14:44:53.188] [warning][cross-compatibility-service] Starting cross compatibility service
+dashboards-1          |   log   [14:44:53.188] [info][plugins-system] Starting [56] plugins: [usageCollection,opensearchDashboardsUsageCollection,opensearchDashboardsLegacy,mapsLegacy,expressions,data,savedObjects,share,opensearchUiShared,queryEnhancements,legacyExport,embeddable,dataExplorer,home,dashboard,visualizations,visTypeVega,visBuilder,visTypeTimeline,tileMap,visTypeTable,visTypeMarkdown,visAugmenter,inputControlVis,regionMap,transformVis,ganttChartDashboards,visualize,apmOss,management,indexPatternManagement,dataSourceManagement,securityAnalyticsDashboards,searchRelevanceDashboards,reportsDashboards,flowFrameworkDashboards,customImportMapDashboards,indexManagementDashboards,mlCommonsDashboards,assistantDashboards,anomalyDetectionDashboards,alertingDashboards,queryInsightsDashboards,notificationsDashboards,console,advancedSettings,charts,observabilityDashboards,queryWorkbenchDashboards,visTypeVislib,visTypeTimeseries,visTypeTagcloud,visTypeMetric,discover,savedObjectsManagement,bfetch]
+filebeat-1            | Waiting until opensearch-local has index template "malcolm_beats_template"...
+logstash-instance1-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+logstash-instance3-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+filebeat-1            | opensearch-local index template "malcolm_beats_template" exists
+logstash-instance2-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+logstash-instance2-1  |
+logstash-instance1-1  |
+logstash-instance3-1  |
+logstash-instance1-1  | [2025-04-01T14:44:53,812][INFO ][org.logstash.secret.store.backend.JavaKeyStore] Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+logstash-instance2-1  | [2025-04-01T14:44:53,810][INFO ][org.logstash.secret.store.backend.JavaKeyStore] Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+logstash-instance2-1  | Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+logstash-instance1-1  | Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+dashboards-1          |   log   [14:44:53.837] [info][listening] Server running at http://0.0.0.0:5601/dashboards
+arkime-1              | Launch wise...
+logstash-instance3-1  | [2025-04-01T14:44:53,861][INFO ][org.logstash.secret.store.backend.JavaKeyStore] Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+logstash-instance3-1  | Created Logstash keystore at /usr/share/logstash/config/logstash.keystore
+dashboards-1          |   log   [14:44:53.988] [info][server][OpenSearchDashboards][http] http server running at http://0.0.0.0:5601/dashboards
+logstash-instance3-1  | opensearch-local is up and healthy at http://opensearch:9200
+logstash-instance2-1  | opensearch-local is up and healthy at http://opensearch:9200
+logstash-instance1-1  | opensearch-local is up and healthy at http://opensearch:9200
+zeek-1                | root
+zeek-1                | uid=0(root) gid=0(root) groups=0(root)
+zeek-live-1           | root
+zeek-live-1           | uid=0(root) gid=0(root) groups=0(root)
+zeek-live-1           | 2025-04-01 14:44:54,722 INFO Set uid to user 0 succeeded
+zeek-1                | 2025-04-01 14:44:54,722 INFO Set uid to user 0 succeeded
+zeek-1                | 2025-04-01 14:44:54,725 INFO RPC interface 'supervisor' initialized
+zeek-1                | 2025-04-01 14:44:54,725 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+zeek-1                | 2025-04-01 14:44:54,725 INFO supervisord started with pid 804
+zeek-live-1           | 2025-04-01 14:44:54,725 INFO RPC interface 'supervisor' initialized
+zeek-live-1           | 2025-04-01 14:44:54,725 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+zeek-live-1           | 2025-04-01 14:44:54,725 INFO supervisord started with pid 801
+suricata-1            | Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+suricata-1            | Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+logstash-instance3-1  | Waiting until opensearch-local has index template "malcolm_template"...
+logstash-instance1-1  | Waiting until opensearch-local has index template "malcolm_template"...
+logstash-instance2-1  | Waiting until opensearch-local has index template "malcolm_template"...
+logstash-instance1-1  | opensearch-local index template "malcolm_template" exists
+logstash-instance2-1  | opensearch-local index template "malcolm_template" exists
+logstash-instance3-1  | opensearch-local index template "malcolm_template" exists
+suricata-1            | Info: detect: 1 rule files processed. 49261 rules successfully loaded, 0 rules failed, 0
+suricata-1            | Info: threshold-config: Threshold config parsed: 0 rule(s) found
+suricata-1            | Info: detect: 49264 signatures processed. 1285 are IP-only rules, 4333 are inspecting packet payload, 43430 inspect application layer, 108 are decoder event only
+zeek-1                | 2025-04-01 14:44:55,727 INFO spawned: 'cron' with pid 811
+zeek-live-1           | 2025-04-01 14:44:55,728 INFO spawned: 'cron' with pid 808
+zeek-1                | 2025-04-01 14:44:55,729 INFO spawned: 'intel-initialization' with pid 812
+zeek-1                | 2025-04-01 14:44:55,731 INFO spawned: 'pcap-zeek' with pid 813
+zeek-live-1           | 2025-04-01T14:44:55Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+zeek-1                | 2025-04-01T14:44:55Z {"level": "warning", "msg": "process reaping disabled, not pid 1"}
+zeek-1                | 2025-04-01T14:44:55Z {"level": "info", "msg": "read crontab: /opt/zeek/crontab"}
+zeek-live-1           | 2025-04-01T14:44:55Z {"level": "info", "msg": "read crontab: /opt/zeek/crontab"}
+zeek-1                | 2025-04-01 14:44:55,766 WARN exited: intel-initialization (exit status 0; not expected)
+arkime-1              | [[14:44:56.605]] [LOG]   /opt/arkime/wiseService/wiseService.js listening on host :: port 8081 in development mode
+zeek-live-1           | 2025-04-01 14:44:56,767 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+zeek-1                | 2025-04-01 14:44:56,768 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+zeek-1                | 2025-04-01 14:44:56,768 INFO spawned: 'intel-initialization' with pid 852
+zeek-1                | 2025-04-01T14:44:56Z {"level": "info", "msg": "received user defined signal 2, reloading crontab"}
+zeek-1                | 2025-04-01T14:44:56Z {"level": "info", "msg": "waiting for jobs to finish"}
+zeek-1                | 2025-04-01T14:44:56Z {"level": "info", "msg": "read crontab: /opt/zeek/crontab"}
+zeek-1                | 2025-04-01 14:44:56,798 WARN exited: intel-initialization (exit status 0; not expected)
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:44:56,973 WARN exited: nginx (exit status 1; not expected)
+arkime-1              | WISE is running!
+arkime-1              |
+arkime-1              | opensearch-local database previously initialized!
+arkime-1              |
+arkime-1              | WARNING OpenSearch/Elasticsearch health is 'yellow' instead of 'green', things may be broken
+arkime-1              |
+arkime-1              | opensearch-local database is up-to-date for Arkime version 5.6.2!
+arkime-1              | {"_shards":{"total":24,"successful":21,"failed":0}}2025-04-01 14:44:57,261 INFO exited: initialize (exit status 0; expected)
+nginx-proxy-1         | 2025/04/01 14:44:51 [emerg] 122#122: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+filebeat-1            | 2025-04-01 14:44:58,448 INFO success: filebeat-tcp entered RUNNING state, process has stayed up for > than 30 seconds (startsecs)
+filebeat-1            | 2025-04-01T14:44:58.629Z Home path: [/usr/share/filebeat-tcp] Config path: [/usr/share/filebeat-tcp] Data path: [/usr/share/filebeat-tcp/data] Logs path: [/usr/share/filebeat-tcp/logs]
+filebeat-1            | 2025-04-01T14:44:58.632Z Beat ID: f91d5d5e-548c-4c0a-9c25-5f2f1611f756
+filebeat-1            | 2025-04-01T14:44:58.635Z Syscall filter successfully installed
+filebeat-1            | 2025-04-01T14:44:58.635Z Setup Beat: filebeat; Version: 8.17.0
+filebeat-1            | 2025-04-01T14:44:58.635Z {"message": "Beat info", "system_info": {"beat": {"path": {"config": "/usr/share/filebeat-tcp", "data": "/usr/share/filebeat-tcp/data", "home": "/usr/share/filebeat-tcp", "logs": "/usr/share/filebeat-tcp/logs"}, "type": "filebeat", "uuid": "f91d5d5e-548c-4c0a-9c25-5f2f1611f756"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:58.635Z {"message": "Build info", "system_info": {"build": {"commit": "092f0eae4d0d343cc3a142f671c2a0428df67840", "libbeat": "8.17.0", "time": "2024-12-11T11:11:55.000Z", "version": "8.17.0"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:58.635Z {"message": "Go runtime info", "system_info": {"go": {"os": "linux", "arch": "amd64", "max_procs": 8, "version": "go1.22.9"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:58.636Z {"message": "Host info", "system_info": {"host": {"architecture": "x86_64", "native_architecture": "x86_64", "boot_time": "2025-04-01T14:07:07Z", "containerized": false, "name": "filebeat", "ip": ["127.0.0.1", "172.18.0.7", "::1"], "kernel_version": "6.8.0-57-generic", "mac": ["9e:fe:cb:6a:5b:e9"], "os": {"type": "linux", "family": "debian", "platform": "ubuntu", "name": "Ubuntu", "version": "24.04.2 LTS (Noble Numbat)", "major": 24, "minor": 4, "patch": 2, "codename": "noble"}, "timezone": "UTC", "timezone_offset_sec": 0}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:58.636Z {"message": "Process info", "system_info": {"process": {"capabilities": {"inheritable": null, "permitted": null, "effective": null, "bounding": ["chown", "dac_override", "fowner", "fsetid", "kill", "setgid", "setuid", "setpcap", "net_bind_service", "net_raw", "sys_chroot", "mknod", "audit_write", "setfcap"], "ambient": null}, "cwd": "/usr/share/filebeat-tcp", "exe": "/usr/share/filebeat/filebeat", "name": "filebeat", "pid": 926, "ppid": 794, "seccomp": {"mode": "filter", "no_new_privs": true}, "start_time": "2025-04-01T14:44:58.350Z"}, "ecs.version": "1.6.0"}}
+filebeat-1            | 2025-04-01T14:44:58.642Z Beat name: malcolm1
+filebeat-1            | 2025-04-01T14:44:58.643Z Enabled modules/filesets:
+filebeat-1            | 2025-04-01T14:44:58.644Z Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+filebeat-1            | 2025-04-01T14:44:58.644Z filebeat start running.
+filebeat-1            | 2025-04-01T14:44:58.645Z Finished loading transaction log file for '/usr/share/filebeat-tcp/data/registry/filebeat'. Active transaction id=0
+filebeat-1            | 2025-04-01T14:44:58.646Z Finished loading transaction log file for '/usr/share/filebeat-tcp/data/registry/filebeat'. Active transaction id=0
+filebeat-1            | 2025-04-01T14:44:58.647Z Filebeat is unable to load the ingest pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the ingest pipelines or are using Logstash pipelines, you can ignore this warning.
+filebeat-1            | 2025-04-01T14:44:58.647Z States Loaded from registrar: 0
+filebeat-1            | 2025-04-01T14:44:58.647Z Loading Inputs: 1
+filebeat-1            | 2025-04-01T14:44:58.647Z starting input, keys present on the config: [filebeat.inputs.0.fields.tcp_log_format filebeat.inputs.0.fields_under_root filebeat.inputs.0.host filebeat.inputs.0.max_connections filebeat.inputs.0.max_message_size filebeat.inputs.0.ssl.certificate filebeat.inputs.0.ssl.certificate_authorities.0 filebeat.inputs.0.ssl.enabled filebeat.inputs.0.ssl.key filebeat.inputs.0.ssl.supported_protocols filebeat.inputs.0.ssl.verification_mode filebeat.inputs.0.type]
+filebeat-1            | 2025-04-01T14:44:58.647Z Starting input (ID: 14396188047245403794)
+filebeat-1            | 2025-04-01T14:44:58.647Z Loading and starting Inputs completed. Enabled inputs: 1
+filebeat-1            | 2025-04-01T14:44:58.647Z {"message": "Input 'tcp' starting", "id": "45A471FB5F40DB00"}
+filebeat-1            | 2025-04-01T14:44:58.647Z {"message": "starting tcp socket input", "id": "45A471FB5F40DB00", "host": "0.0.0.0:5045"}
+filebeat-1            | 2025-04-01T14:44:58.647Z {"message": "registering", "input_type": "tcp", "id": "45A471FB5F40DB00", "key": "45A471FB5F40DB00", "uuid": "9fccf2d3-1c52-4773-aade-a304af39c4f7"}
+filebeat-1            | 2025-04-01T14:44:58.648Z {"message": "did not get initial tcp stats from /proc: /proc/net/tcp entry not found for [00000000:13B5]", "id": "45A471FB5F40DB00", "host": "0.0.0.0:5045"}
+arkime-1              | Launch viewer...
+file-monitor-1        | 2025-04-01 14:44:59,041 INFO success: logger entered RUNNING state, process has stayed up for > than 30 seconds (startsecs)
+file-monitor-1        | 2025-04-01 14:44:59,047 INFO success: watcher entered RUNNING state, process has stayed up for > than 30 seconds (startsecs)
+zeek-1                | 2025-04-01 14:44:59,498 INFO spawned: 'intel-initialization' with pid 896
+zeek-1                | 2025-04-01T14:44:59Z {"level": "info", "msg": "received user defined signal 2, reloading crontab"}
+zeek-1                | 2025-04-01T14:44:59Z {"level": "info", "msg": "waiting for jobs to finish"}
+zeek-1                | 2025-04-01T14:44:59Z {"level": "info", "msg": "read crontab: /opt/zeek/crontab"}
+zeek-1                | 2025-04-01 14:44:59,527 WARN exited: intel-initialization (exit status 0; not expected)
+arkime-1              | WARNING - Using authMode=header since not set, add to config file to silence this warning.
+arkime-1              | SECURITY WARNING - when userNameHeader is set, viewHost should be localhost or use iptables
+arkime-1              | /opt/arkime/viewer/viewer.js listening on host :: port 8005 in development mode
+logstash-instance3-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.delay' from environment.
+logstash-instance3-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.size' from environment.
+logstash-instance1-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.delay' from environment.
+logstash-instance1-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.size' from environment.
+logstash-instance3-1  | 2025/04/01 14:45:00 Setting 'pipeline.workers' from environment.
+logstash-instance2-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.delay' from environment.
+logstash-instance2-1  | 2025/04/01 14:45:00 Setting 'pipeline.batch.size' from environment.
+logstash-instance1-1  | 2025/04/01 14:45:00 Setting 'pipeline.workers' from environment.
+logstash-instance2-1  | 2025/04/01 14:45:00 Setting 'pipeline.workers' from environment.
+logstash-instance2-1  | Using bundled JDK: /usr/share/logstash/jdk
+logstash-instance3-1  | Using bundled JDK: /usr/share/logstash/jdk
+logstash-instance1-1  | Using bundled JDK: /usr/share/logstash/jdk
+arkime-1              | This node will process Periodic Queries (CRON) & Hunts, delayed by 85 seconds
+nginx-proxy-1         | 2025-04-01 14:45:01,916 INFO spawned: 'nginx' with pid 130
+zeek-1                | 2025-04-01 14:45:02,534 INFO spawned: 'intel-initialization' with pid 931
+zeek-1                | 2025-04-01T14:45:02Z {"level": "info", "msg": "received user defined signal 2, reloading crontab"}
+zeek-1                | 2025-04-01T14:45:02Z {"level": "info", "msg": "waiting for jobs to finish"}
+zeek-1                | 2025-04-01T14:45:02Z {"level": "info", "msg": "read crontab: /opt/zeek/crontab"}
+zeek-1                | 2025-04-01 14:45:02,604 WARN exited: intel-initialization (exit status 0; not expected)
+pcap-monitor-1        | 2025-04-01 14:45:03,593 INFO success: watch-upload entered RUNNING state, process has stayed up for > than 35 seconds (startsecs)
+zeek-1                | 2025-04-01 14:45:03,605 INFO gave up: intel-initialization entered FATAL state, too many start retries too quickly
+filebeat-1            | 2025-04-01 14:45:04,289 INFO success: watch-upload entered RUNNING state, process has stayed up for > than 35 seconds (startsecs)
+suricata-1            | 2025-04-01 14:45:04,335 INFO success: pcap-suricata entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+suricata-1            | 2025-04-01 14:45:04,336 INFO success: socket-suricata entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+suricata-1            | Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+suricata-1            | Notice: threads: Threads created ->   Engine started.
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:45:06,963 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:45:01 [emerg] 130#130: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+zeek-1                | 2025-04-01 14:45:11,616 INFO success: pcap-zeek entered RUNNING state, process has stayed up for > than 15 seconds (startsecs)
+nginx-proxy-1         | 2025-04-01 14:45:12,955 INFO spawned: 'nginx' with pid 131
+logstash-instance1-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+logstash-instance2-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+logstash-instance3-1  | Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+logstash-instance3-1  | [2025-04-01T14:45:14,382][INFO ][logstash.runner          ] Log4j configuration path used is: /usr/share/logstash/config/log4j2.properties
+logstash-instance1-1  | [2025-04-01T14:45:14,382][INFO ][logstash.runner          ] Log4j configuration path used is: /usr/share/logstash/config/log4j2.properties
+logstash-instance2-1  | [2025-04-01T14:45:14,383][INFO ][logstash.runner          ] Log4j configuration path used is: /usr/share/logstash/config/log4j2.properties
+logstash-instance3-1  | [2025-04-01T14:45:14,384][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"8.17.0", "jruby.version"=>"jruby 9.4.9.0 (3.1.4) 2024-11-04 547c6b150e OpenJDK 64-Bit Server VM 21.0.5+11-LTS on 21.0.5+11-LTS +indy +jit [x86_64-linux]"}
+logstash-instance1-1  | [2025-04-01T14:45:14,383][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"8.17.0", "jruby.version"=>"jruby 9.4.9.0 (3.1.4) 2024-11-04 547c6b150e OpenJDK 64-Bit Server VM 21.0.5+11-LTS on 21.0.5+11-LTS +indy +jit [x86_64-linux]"}
+logstash-instance2-1  | [2025-04-01T14:45:14,385][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"8.17.0", "jruby.version"=>"jruby 9.4.9.0 (3.1.4) 2024-11-04 547c6b150e OpenJDK 64-Bit Server VM 21.0.5+11-LTS on 21.0.5+11-LTS +indy +jit [x86_64-linux]"}
+logstash-instance1-1  | [2025-04-01T14:45:14,384][INFO ][logstash.runner          ] JVM bootstrap flags: [-Xms1g, -Xmx1g, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djruby.compile.invokedynamic=true, -XX:+HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/urandom, -Dlog4j2.isThreadContextMapInheritable=true, -Dlogstash.jackson.stream-read-constraints.max-string-length=200000000, -Dlogstash.jackson.stream-read-constraints.max-number-length=10000, -Dls.cgroup.cpuacct.path.override=/, -Dls.cgroup.cpu.path.override=/, -Xmx2g, -Xms2g, -Xss2048k, -XX:-HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/./urandom, -Dlog4j.formatMsgNoLookups=true, -Djruby.regexp.interruptible=true, -Djdk.io.File.enableADS=true, --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED, --add-opens=java.base/java.security=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio.channels=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, -Dio.netty.allocator.maxOrder=11]
+logstash-instance2-1  | [2025-04-01T14:45:14,388][INFO ][logstash.runner          ] JVM bootstrap flags: [-Xms1g, -Xmx1g, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djruby.compile.invokedynamic=true, -XX:+HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/urandom, -Dlog4j2.isThreadContextMapInheritable=true, -Dlogstash.jackson.stream-read-constraints.max-string-length=200000000, -Dlogstash.jackson.stream-read-constraints.max-number-length=10000, -Dls.cgroup.cpuacct.path.override=/, -Dls.cgroup.cpu.path.override=/, -Xmx2g, -Xms2g, -Xss2048k, -XX:-HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/./urandom, -Dlog4j.formatMsgNoLookups=true, -Djruby.regexp.interruptible=true, -Djdk.io.File.enableADS=true, --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED, --add-opens=java.base/java.security=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio.channels=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, -Dio.netty.allocator.maxOrder=11]
+logstash-instance3-1  | [2025-04-01T14:45:14,386][INFO ][logstash.runner          ] JVM bootstrap flags: [-Xms1g, -Xmx1g, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djruby.compile.invokedynamic=true, -XX:+HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/urandom, -Dlog4j2.isThreadContextMapInheritable=true, -Dlogstash.jackson.stream-read-constraints.max-string-length=200000000, -Dlogstash.jackson.stream-read-constraints.max-number-length=10000, -Dls.cgroup.cpuacct.path.override=/, -Dls.cgroup.cpu.path.override=/, -Xmx2g, -Xms2g, -Xss2048k, -XX:-HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/./urandom, -Dlog4j.formatMsgNoLookups=true, -Djruby.regexp.interruptible=true, -Djdk.io.File.enableADS=true, --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED, --add-opens=java.base/java.security=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio.channels=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, -Dio.netty.allocator.maxOrder=11]
+logstash-instance3-1  | [2025-04-01T14:45:14,412][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-string-length` configured to `200000000`
+logstash-instance3-1  | [2025-04-01T14:45:14,412][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-number-length` configured to `10000`
+logstash-instance1-1  | [2025-04-01T14:45:14,413][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-string-length` configured to `200000000`
+logstash-instance1-1  | [2025-04-01T14:45:14,413][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-number-length` configured to `10000`
+logstash-instance2-1  | [2025-04-01T14:45:14,421][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-string-length` configured to `200000000`
+logstash-instance2-1  | [2025-04-01T14:45:14,421][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-number-length` configured to `10000`
+logstash-instance3-1  | [2025-04-01T14:45:14,427][INFO ][logstash.settings        ] Creating directory {:setting=>"path.queue", :path=>"/usr/share/logstash/data/queue"}
+logstash-instance2-1  | [2025-04-01T14:45:14,428][INFO ][logstash.settings        ] Creating directory {:setting=>"path.queue", :path=>"/usr/share/logstash/data/queue"}
+logstash-instance1-1  | [2025-04-01T14:45:14,429][INFO ][logstash.settings        ] Creating directory {:setting=>"path.queue", :path=>"/usr/share/logstash/data/queue"}
+logstash-instance3-1  | [2025-04-01T14:45:14,430][INFO ][logstash.settings        ] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/usr/share/logstash/data/dead_letter_queue"}
+logstash-instance2-1  | [2025-04-01T14:45:14,431][INFO ][logstash.settings        ] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/usr/share/logstash/data/dead_letter_queue"}
+logstash-instance1-1  | [2025-04-01T14:45:14,433][INFO ][logstash.settings        ] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/usr/share/logstash/data/dead_letter_queue"}
+logstash-instance3-1  | [2025-04-01T14:45:14,596][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"c78e4a60-6929-45e5-93f3-536adb6b9991", :path=>"/usr/share/logstash/data/uuid"}
+logstash-instance2-1  | [2025-04-01T14:45:14,607][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"f0f5feae-aca8-45cd-ac74-00530c642ae9", :path=>"/usr/share/logstash/data/uuid"}
+logstash-instance1-1  | [2025-04-01T14:45:14,611][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"19d289f6-dc6c-461f-bfaf-8fb5cf390fe7", :path=>"/usr/share/logstash/data/uuid"}
+logstash-instance3-1  | [2025-04-01T14:45:14,976][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600, :ssl_enabled=>false}
+logstash-instance2-1  | [2025-04-01T14:45:14,979][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600, :ssl_enabled=>false}
+logstash-instance1-1  | [2025-04-01T14:45:15,000][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600, :ssl_enabled=>false}
+logstash-instance1-1  | [2025-04-01T14:45:15,764][INFO ][org.reflections.Reflections] Reflections took 304 ms to scan 1 urls, producing 151 keys and 528 values
+logstash-instance2-1  | [2025-04-01T14:45:15,771][INFO ][org.reflections.Reflections] Reflections took 360 ms to scan 1 urls, producing 151 keys and 528 values
+logstash-instance3-1  | [2025-04-01T14:45:15,823][INFO ][org.reflections.Reflections] Reflections took 390 ms to scan 1 urls, producing 151 keys and 528 values
+logstash-instance3-1  | [2025-04-01T14:45:16,483][INFO ][logstash.javapipeline    ] Pipeline `malcolm-input` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:45:16,530][INFO ][logstash.javapipeline    ] Pipeline `malcolm-input` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:45:16,632][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance3-1  | [2025-04-01T14:45:16,652][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:45:16,671][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-input", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/input/01_beats_input.conf", "/usr/share/logstash/malcolm-pipelines/input/99_input_forward.conf"], :thread=>"#<Thread:0x191f6edc /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance3-1  | [2025-04-01T14:45:16,696][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-input", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/input/01_beats_input.conf", "/usr/share/logstash/malcolm-pipelines/input/99_input_forward.conf"], :thread=>"#<Thread:0x5603de99 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance1-1  | [2025-04-01T14:45:17,551][INFO ][logstash.javapipeline    ] Pipeline `malcolm-input` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance1-1  | [2025-04-01T14:45:17,633][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance1-1  | [2025-04-01T14:45:17,649][INFO ][logstash.javapipeline    ] Pipeline `malcolm-output` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance1-1  | [2025-04-01T14:45:17,671][INFO ][logstash.outputs.opensearch] New OpenSearch output {:class=>"LogStash::Outputs::OpenSearch", :hosts=>["http://opensearch:9200"]}
+logstash-instance1-1  | [2025-04-01T14:45:17,684][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-input", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/input/01_beats_input.conf", "/usr/share/logstash/malcolm-pipelines/input/99_input_forward.conf"], :thread=>"#<Thread:0x4650182f /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance2-1  | [2025-04-01T14:45:17,846][INFO ][logstash.javapipeline    ] Pipeline `malcolm-output` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:45:17,887][INFO ][logstash.outputs.opensearch] New OpenSearch output {:class=>"LogStash::Outputs::OpenSearch", :hosts=>["http://opensearch:9200"]}
+logstash-instance1-1  | [2025-04-01T14:45:17,951][INFO ][logstash.outputs.opensearch] OpenSearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://opensearch:9200/]}}
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:45:18,066 WARN exited: nginx (exit status 1; not expected)
+logstash-instance2-1  | [2025-04-01T14:45:18,225][INFO ][logstash.outputs.opensearch] OpenSearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://opensearch:9200/]}}
+logstash-instance3-1  | [2025-04-01T14:45:18,261][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>1.56}
+logstash-instance3-1  | [2025-04-01T14:45:18,274][INFO ][logstash.inputs.beats    ] Starting input listener {:address=>"0.0.0.0:5044"}
+logstash-instance1-1  | [2025-04-01T14:45:18,286][WARN ][logstash.outputs.opensearch] Restored connection to OpenSearch instance {:url=>"http://opensearch:9200/"}
+logstash-instance2-1  | [2025-04-01T14:45:18,315][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>1.64}
+logstash-instance2-1  | [2025-04-01T14:45:18,322][INFO ][logstash.inputs.beats    ] Starting input listener {:address=>"0.0.0.0:5044"}
+logstash-instance2-1  | [2025-04-01T14:45:18,356][WARN ][logstash.outputs.opensearch] Restored connection to OpenSearch instance {:url=>"http://opensearch:9200/"}
+logstash-instance3-1  | [2025-04-01T14:45:18,394][INFO ][logstash.javapipeline    ] Pipeline `malcolm-output` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance1-1  | [2025-04-01T14:45:18,413][INFO ][logstash.outputs.opensearch] Cluster version determined (2.19.1) {:version=>2}
+logstash-instance1-1  | [2025-04-01T14:45:18,423][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-output", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/output/01_input_internal_os.conf", "/usr/share/logstash/malcolm-pipelines/output/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/output/99_opensearch_output.conf"], :thread=>"#<Thread:0x4e781d56 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance3-1  | [2025-04-01T14:45:18,437][INFO ][logstash.outputs.opensearch] New OpenSearch output {:class=>"LogStash::Outputs::OpenSearch", :hosts=>["http://opensearch:9200"]}
+logstash-instance2-1  | [2025-04-01T14:45:18,438][INFO ][logstash.outputs.opensearch] Cluster version determined (2.19.1) {:version=>2}
+logstash-instance2-1  | [2025-04-01T14:45:18,447][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-output", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/output/01_input_internal_os.conf", "/usr/share/logstash/malcolm-pipelines/output/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/output/99_opensearch_output.conf"], :thread=>"#<Thread:0x61c072b7 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance2-1  | [2025-04-01T14:45:18,577][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>0.13}
+logstash-instance2-1  | [2025-04-01T14:45:18,581][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-output"}
+logstash-instance3-1  | [2025-04-01T14:45:18,716][INFO ][logstash.outputs.opensearch] OpenSearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://opensearch:9200/]}}
+logstash-instance3-1  | [2025-04-01T14:45:18,786][WARN ][logstash.outputs.opensearch] Restored connection to OpenSearch instance {:url=>"http://opensearch:9200/"}
+logstash-instance3-1  | [2025-04-01T14:45:18,803][INFO ][logstash.outputs.opensearch] Cluster version determined (2.19.1) {:version=>2}
+logstash-instance3-1  | [2025-04-01T14:45:18,842][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-output", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/output/01_input_internal_os.conf", "/usr/share/logstash/malcolm-pipelines/output/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/output/99_opensearch_output.conf"], :thread=>"#<Thread:0xda876fc /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+nginx-proxy-1         | 2025/04/01 14:45:13 [emerg] 131#131: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance3-1  | [2025-04-01T14:45:19,051][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>0.21}
+logstash-instance3-1  | [2025-04-01T14:45:19,081][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-output"}
+logstash-instance1-1  | [2025-04-01T14:45:19,275][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>1.59}
+logstash-instance1-1  | [2025-04-01T14:45:19,291][INFO ][logstash.inputs.beats    ] Starting input listener {:address=>"0.0.0.0:5044"}
+logstash-instance1-1  | [2025-04-01T14:45:19,315][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>0.88}
+logstash-instance1-1  | [2025-04-01T14:45:19,330][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-output"}
+logstash-instance3-1  | [2025-04-01T14:45:19,364][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-input"}
+logstash-instance3-1  | [2025-04-01T14:45:19,550][INFO ][org.logstash.beats.Server] Starting server on port: 5044
+logstash-instance2-1  | [2025-04-01T14:45:19,694][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-input"}
+logstash-instance2-1  | [2025-04-01T14:45:19,783][INFO ][org.logstash.beats.Server] Starting server on port: 5044
+logstash-instance1-1  | [2025-04-01T14:45:20,541][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-input"}
+logstash-instance1-1  | [2025-04-01T14:45:20,665][INFO ][org.logstash.beats.Server] Starting server on port: 5044
+nginx-proxy-1         | 2025-04-01 14:45:24,998 INFO spawned: 'nginx' with pid 132
+logstash-instance3-1  | [2025-04-01T14:45:28,303][INFO ][logstash.javapipeline    ] Pipeline `malcolm-suricata` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance3-1  | [2025-04-01T14:45:28,829][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance3-1  | [2025-04-01T14:45:28,843][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance3-1  | [2025-04-01T14:45:29,903][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-suricata", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/suricata/01_input_suricata.conf", "/usr/share/logstash/malcolm-pipelines/suricata/11_suricata_logs.conf", "/usr/share/logstash/malcolm-pipelines/suricata/12_suricata_normalize.conf", "/usr/share/logstash/malcolm-pipelines/suricata/13_suricata_convert.conf", "/usr/share/logstash/malcolm-pipelines/suricata/19_severity.conf", "/usr/share/logstash/malcolm-pipelines/suricata/99_suricata_forward.conf"], :thread=>"#<Thread:0x55b44828 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:45:30,193 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:45:25 [emerg] 132#132: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance2-1  | [2025-04-01T14:45:31,083][INFO ][logstash.javapipeline    ] Pipeline `malcolm-suricata` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:45:31,384][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:45:31,413][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:45:32,904][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-suricata", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/suricata/01_input_suricata.conf", "/usr/share/logstash/malcolm-pipelines/suricata/11_suricata_logs.conf", "/usr/share/logstash/malcolm-pipelines/suricata/12_suricata_normalize.conf", "/usr/share/logstash/malcolm-pipelines/suricata/13_suricata_convert.conf", "/usr/share/logstash/malcolm-pipelines/suricata/19_severity.conf", "/usr/share/logstash/malcolm-pipelines/suricata/99_suricata_forward.conf"], :thread=>"#<Thread:0x3de64e75 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+pcap-monitor-1        | 2025-04-01 14:45:33,441 INFO success: pcap-publisher entered RUNNING state, process has stayed up for > than 65 seconds (startsecs)
+nginx-proxy-1         | 2025-04-01 14:45:39,826 INFO spawned: 'nginx' with pid 139
+logstash-instance1-1  | [2025-04-01T14:45:40,350][INFO ][logstash.javapipeline    ] Pipeline `malcolm-suricata` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:45:47,504 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:45:40 [emerg] 139#139: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance1-1  | [2025-04-01T14:45:47,981][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance1-1  | [2025-04-01T14:45:48,060][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+nginx-proxy-1         | 2025-04-01 14:45:59,088 INFO spawned: 'nginx' with pid 140
+nginx-proxy-1         | 2025-04-01 14:46:09,655 INFO success: nginx entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "upload:80" in /etc/nginx/nginx.conf:61
+nginx-proxy-1         | 2025-04-01 14:46:28,394 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:46:07 [emerg] 140#140: host not found in upstream "upload:80" in /etc/nginx/nginx.conf:61
+nginx-proxy-1         | 2025-04-01 14:46:54,489 INFO spawned: 'nginx' with pid 141
+nginx-proxy-1         | 2025-04-01 14:46:56,830 INFO success: nginx entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+nginx-proxy-1         | 2025/04/01 14:46:57 [emerg] 141#141: host not found in upstream "upload:80" in /etc/nginx/nginx.conf:61
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "upload:80" in /etc/nginx/nginx.conf:61
+nginx-proxy-1         | 2025-04-01 14:47:28,459 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025-04-01 14:47:36,034 INFO spawned: 'nginx' with pid 142
+opensearch-1          | [2025-04-01T14:52:35,801][WARN ][o.o.m.j.JvmGcMonitorService] [opensearch] [gc][young][461][10] duration [4s], collections [1]/[4.5s], total [4s]/[4.3s], memory [449.3mb]->[127.3mb]/[4gb], all_pools {[young] [327.9mb]->[0b]/[0b]}{[old] [70.3mb]->[117.3mb]/[4gb]}{[survivor] [51mb]->[10mb]/[0b]}
+opensearch-1          | [2025-04-01T14:52:35,887][WARN ][o.o.m.j.JvmGcMonitorService] [opensearch] [gc][461] overhead, spent [4s] collecting in the last [4.5s]
+nginx-proxy-1         | 2025-04-01 14:48:15,462 INFO success: nginx entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+dashboards-helper-1   | 2025-04-01T14:52:39Z  /usr/local/bin/shared-object-creation.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (2m0s elapsed)
+dashboards-helper-1   | 2025-04-01T14:52:39Z  /usr/local/bin/shared-object-creation.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (4m0s elapsed)
+dashboards-helper-1   | 2025-04-01T14:52:39Z  /usr/local/bin/shared-object-creation.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (6m0s elapsed)
+filebeat-1            | 2025-04-01T14:47:01Z  /usr/local/bin/filebeat-process-zeek-folder.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (1m0s elapsed)
+filebeat-1            | 2025-04-01T14:52:39Z  /usr/local/bin/filebeat-process-zeek-folder.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (2m0s elapsed)
+filebeat-1            | 2025-04-01T14:52:39Z  /usr/local/bin/filebeat-process-zeek-folder.sh: not starting: job is still running since 2025-04-01 14:46:00 +0000 UTC (3m0s elapsed)
+filebeat-1            | 2025-04-01T14:52:39Z  /usr/local/bin/filebeat-process-zeek-folder.sh: job took too long to run: it should have started 5m39.490906391s ago
+opensearch-1          | bash: line 20:    48 Killed                  "/usr/local/bin/service_check_passthrough.sh" -s opensearch /usr/share/opensearch/opensearch-docker-entrypoint.sh
+arkime-1              | CRON - processQueries already running {}
+arkime-1              | Trace: OpenSearch/Elasticsearch Search Error - query: {
+arkime-1              |   "index": "arkime_queries",
+arkime-1              |   "body": {
+arkime-1              |     "size": 1000,
+arkime-1              |     "profile": false
+arkime-1              |   },
+arkime-1              |   "rest_total_hits_as_int": true
+arkime-1              | } err: ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at Db.search (/opt/arkime/viewer/db.js:584:13)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+arkime-1              | CRON - processCronQueries ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              | Trace: Unhandled Rejection at: Promise Promise {
+arkime-1              |   <rejected> ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |       at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |       at ClientRequest.emit (node:events:518:28)
+arkime-1              |       at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |       at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |       at Socket.emit (node:events:518:28)
+arkime-1              |       at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |       at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |     meta: { body: null, statusCode: null, headers: null, meta: [Object] }
+arkime-1              |   }
+arkime-1              | } reason: ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | } {
+arkime-1              |   "name": "ConnectionError",
+arkime-1              |   "meta": {
+arkime-1              |     "body": null,
+arkime-1              |     "statusCode": null,
+arkime-1              |     "headers": null,
+arkime-1              |     "meta": {
+arkime-1              |       "context": null,
+arkime-1              |       "request": {
+arkime-1              |         "params": {
+arkime-1              |           "method": "PUT",
+arkime-1              |           "path": "/arkime_queries/_doc/primary-viewer",
+arkime-1              |           "body": "{\"name\":\"malcolm1-upload-985\",\"lastRun\":1743519159737,\"enabled\":false}",
+arkime-1              |           "querystring": "",
+arkime-1              |           "headers": {
+arkime-1              |             "user-agent": "elasticsearch-js/7.10.0 (linux 6.8.0-57-generic-x64; Node.js v20.18.3)",
+arkime-1              |             "content-type": "application/json",
+arkime-1              |             "content-length": "70"
+arkime-1              |           },
+arkime-1              |           "timeout": 330000
+arkime-1              |         },
+arkime-1              |         "options": {},
+arkime-1              |         "id": 20
+arkime-1              |       },
+arkime-1              |       "name": "elasticsearch-js",
+arkime-1              |       "connection": {
+arkime-1              |         "url": "http://opensearch:9200/",
+arkime-1              |         "id": "http://opensearch:9200/",
+arkime-1              |         "headers": {},
+arkime-1              |         "deadCount": 13,
+arkime-1              |         "resurrectTimeout": 1743521079964,
+arkime-1              |         "_openRequests": 4,
+arkime-1              |         "status": "dead",
+arkime-1              |         "roles": {
+arkime-1              |           "master": true,
+arkime-1              |           "data": true,
+arkime-1              |           "ingest": true,
+arkime-1              |           "ml": false
+arkime-1              |         }
+arkime-1              |       },
+arkime-1              |       "attempts": 2,
+arkime-1              |       "aborted": false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at process.<anonymous> (/opt/arkime/viewer/viewer.js:2134:11)
+arkime-1              |     at process.emit (node:events:518:28)
+arkime-1              |     at emitUnhandledRejection (node:internal/process/promises:250:13)
+arkime-1              |     at throwUnhandledRejectionsMode (node:internal/process/promises:385:19)
+arkime-1              |     at processPromiseRejections (node:internal/process/promises:470:17)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+arkime-1              | ERROR - fetching aliases ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              | Trace: OpenSearch/Elasticsearch Search Error - query: {
+arkime-1              |   "index": "arkime_fields",
+arkime-1              |   "body": {
+arkime-1              |     "size": 10000,
+arkime-1              |     "profile": false
+arkime-1              |   },
+arkime-1              |   "rest_total_hits_as_int": true
+arkime-1              | } err: ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at Db.search (/opt/arkime/viewer/db.js:584:13)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+arkime-1              |     at async ViewerUtils.loadFields (/opt/arkime/viewer/viewerUtils.js:463:18)
+opensearch-1 exited with code 137
+dashboards-1          |   log   [14:52:40.211] [error][data][opensearch] [ConnectionError]: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |   log   [14:52:40.283] [warning][application-usage][opensearchDashboardsUsageCollection][plugins] Failed to rollup transactional to daily entries
+dashboards-1          |   log   [14:52:40.286] [warning][application-usage][opensearchDashboardsUsageCollection][plugins] ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |     at ClientRequest.onError (/usr/share/opensearch-dashboards/node_modules/@opensearch-project/opensearch/lib/Connection.js:126:16)
+dashboards-1          |     at ClientRequest.emit (node:events:517:28)
+dashboards-1          |     at ClientRequest.emit (node:domain:489:12)
+dashboards-1          |     at Socket.socketErrorListener (node:_http_client:501:9)
+dashboards-1          |     at Socket.emit (node:events:517:28)
+dashboards-1          |     at Socket.emit (node:domain:489:12)
+dashboards-1          |     at emitErrorNT (node:internal/streams/destroy:151:8)
+dashboards-1          |     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+dashboards-1          |     at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+dashboards-1          |   meta: {
+dashboards-1          |     body: null,
+dashboards-1          |     statusCode: null,
+dashboards-1          |     headers: null,
+dashboards-1          |     meta: {
+dashboards-1          |       context: null,
+dashboards-1          |       request: [Object],
+dashboards-1          |       name: 'opensearch-js',
+dashboards-1          |       connection: [Object],
+dashboards-1          |       attempts: 0,
+dashboards-1          |       aborted: false
+dashboards-1          |     }
+dashboards-1          |   },
+dashboards-1          |   isBoom: true,
+dashboards-1          |   isServer: true,
+dashboards-1          |   data: null,
+dashboards-1          |   output: {
+dashboards-1          |     statusCode: 503,
+dashboards-1          |     payload: {
+dashboards-1          |       statusCode: 503,
+dashboards-1          |       error: 'Service Unavailable',
+dashboards-1          |       message: 'connect ECONNREFUSED 172.18.0.12:9200'
+dashboards-1          |     },
+dashboards-1          |     headers: {}
+dashboards-1          |   },
+dashboards-1          |   [Symbol(SavedObjectsClientErrorCode)]: 'SavedObjectsClient/opensearchUnavailable'
+dashboards-1          | }
+dashboards-1          |   log   [14:52:40.380] [error][data][opensearch] [ConnectionError]: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |   log   [14:52:40.381] [warning][application-usage][opensearchDashboardsUsageCollection][plugins] Failed to rollup daily entries to totals
+dashboards-1          |   log   [14:52:40.381] [warning][application-usage][opensearchDashboardsUsageCollection][plugins] ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |     at ClientRequest.onError (/usr/share/opensearch-dashboards/node_modules/@opensearch-project/opensearch/lib/Connection.js:126:16)
+dashboards-1          |     at ClientRequest.emit (node:events:517:28)
+dashboards-1          |     at ClientRequest.emit (node:domain:489:12)
+dashboards-1          |     at Socket.socketErrorListener (node:_http_client:501:9)
+dashboards-1          |     at Socket.emit (node:events:517:28)
+dashboards-1          |     at Socket.emit (node:domain:489:12)
+dashboards-1          |     at emitErrorNT (node:internal/streams/destroy:151:8)
+dashboards-1          |     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+dashboards-1          |     at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+dashboards-1          |   meta: {
+dashboards-1          |     body: null,
+dashboards-1          |     statusCode: null,
+dashboards-1          |     headers: null,
+dashboards-1          |     meta: {
+dashboards-1          |       context: null,
+dashboards-1          |       request: [Object],
+dashboards-1          |       name: 'opensearch-js',
+dashboards-1          |       connection: [Object],
+dashboards-1          |       attempts: 0,
+dashboards-1          |       aborted: false
+dashboards-1          |     }
+dashboards-1          |   },
+dashboards-1          |   isBoom: true,
+dashboards-1          |   isServer: true,
+dashboards-1          |   data: null,
+dashboards-1          |   output: {
+dashboards-1          |     statusCode: 503,
+dashboards-1          |     payload: {
+dashboards-1          |       statusCode: 503,
+dashboards-1          |       error: 'Service Unavailable',
+dashboards-1          |       message: 'connect ECONNREFUSED 172.18.0.12:9200'
+dashboards-1          |     },
+dashboards-1          |     headers: {}
+dashboards-1          |   },
+dashboards-1          |   [Symbol(SavedObjectsClientErrorCode)]: 'SavedObjectsClient/opensearchUnavailable'
+dashboards-1          | }
+dashboards-1          |   log   [14:52:40.383] [error][data][opensearch] [ConnectionError]: connect ECONNREFUSED 172.18.0.12:9200
+dashboards-1          |   log   [14:52:40.441] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+arkime-1              | Trace: OpenSearch/Elasticsearch Search Error - query: {
+arkime-1              |   "index": "arkime_stats",
+arkime-1              |   "body": {
+arkime-1              |     "query": {
+arkime-1              |       "match": {
+arkime-1              |         "hostname": "arkime"
+arkime-1              |       }
+arkime-1              |     },
+arkime-1              |     "profile": false
+arkime-1              |   },
+arkime-1              |   "rest_total_hits_as_int": true
+arkime-1              | } err: ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at Db.search (/opt/arkime/viewer/db.js:584:13)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+arkime-1              | ERROR - processHuntJobs - fetching hunt jobs ConnectionError: connect ECONNREFUSED 172.18.0.12:9200
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: {
+arkime-1              |         params: {
+arkime-1              |           method: 'POST',
+arkime-1              |           path: '/arkime_hunts/_search',
+arkime-1              |           body: '{"size":10000,"sort":{"created":{"order":"asc"}},"query":{"terms":{"status":["queued","paused","running"]}}}',
+arkime-1              |           querystring: 'rest_total_hits_as_int=true',
+arkime-1              |           headers: {
+arkime-1              |             'user-agent': 'elasticsearch-js/7.10.0 (linux 6.8.0-57-generic-x64; Node.js v20.18.3)',
+arkime-1              |             'content-type': 'application/json',
+arkime-1              |             'content-length': '108'
+arkime-1              |           },
+arkime-1              |           timeout: 330000
+arkime-1              |         },
+arkime-1              |         options: {},
+arkime-1              |         id: 17
+arkime-1              |       },
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: {
+arkime-1              |         url: 'http://opensearch:9200/',
+arkime-1              |         id: 'http://opensearch:9200/',
+arkime-1              |         headers: {},
+arkime-1              |         deadCount: 18,
+arkime-1              |         resurrectTimeout: 1743521080528,
+arkime-1              |         _openRequests: 0,
+arkime-1              |         status: 'dead',
+arkime-1              |         roles: { master: true, data: true, ingest: true, ml: false }
+arkime-1              |       },
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+dashboards-1          |   log   [14:52:40.612] [error][savedobjects-service] Unable to retrieve version information from OpenSearch nodes.
+logstash-instance1-1  | [2025-04-01T14:52:40,675][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-suricata", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/suricata/01_input_suricata.conf", "/usr/share/logstash/malcolm-pipelines/suricata/11_suricata_logs.conf", "/usr/share/logstash/malcolm-pipelines/suricata/12_suricata_normalize.conf", "/usr/share/logstash/malcolm-pipelines/suricata/13_suricata_convert.conf", "/usr/share/logstash/malcolm-pipelines/suricata/19_severity.conf", "/usr/share/logstash/malcolm-pipelines/suricata/99_suricata_forward.conf"], :thread=>"#<Thread:0x70bd6f53 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance3-1  | [2025-04-01T14:52:41,709][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>431.8}
+logstash-instance3-1  | [2025-04-01T14:52:41,733][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-suricata"}
+dashboards-1          |   log   [14:52:42.680] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:52:44,671 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025-04-01 14:52:44,683 INFO spawned: 'nginx' with pid 150
+dashboards-1          |   log   [14:52:45.179] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025/04/01 14:52:39 [emerg] 142#142: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance2-1  | [2025-04-01T14:52:45,527][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>432.61}
+logstash-instance2-1  | [2025-04-01T14:52:45,562][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-suricata"}
+logstash-instance1-1  | [2025-04-01T14:52:46,202][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>5.52}
+logstash-instance1-1  | [2025-04-01T14:52:46,234][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-suricata"}
+dashboards-1          |   log   [14:52:47.677] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance3-1  | [2025-04-01T14:52:48,059][INFO ][logstash.javapipeline    ] Pipeline `malcolm-enrichment` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance3-1  | [2025-04-01T14:52:48,163][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance1-1  | [2025-04-01T14:52:49,670][INFO ][logstash.javapipeline    ] Pipeline `malcolm-enrichment` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:52:49,720 WARN exited: nginx (exit status 1; not expected)
+logstash-instance1-1  | [2025-04-01T14:52:49,780][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+dashboards-1          |   log   [14:52:50.210] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025/04/01 14:52:44 [emerg] 150#150: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:52:51,572 INFO spawned: 'nginx' with pid 151
+dashboards-1          |   log   [14:52:52.696] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance2-1  | [2025-04-01T14:52:53,009][INFO ][logstash.javapipeline    ] Pipeline `malcolm-enrichment` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:52:53,203][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+dashboards-1          |   log   [14:52:55.186] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance2-1  | [2025-04-01T14:52:56,046][INFO ][logstash.javapipeline    ] Pipeline `malcolm-beats` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:52:56,133][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:52:56,593 WARN exited: nginx (exit status 1; not expected)
+logstash-instance2-1  | [2025-04-01T14:52:57,318][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-beats", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/beats/01_input_beats.conf", "/usr/share/logstash/malcolm-pipelines/beats/11_beats_logs.conf", "/usr/share/logstash/malcolm-pipelines/beats/12_lookups.conf", "/usr/share/logstash/malcolm-pipelines/beats/13_normalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/beats/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/99_beats_forward.conf"], :thread=>"#<Thread:0x5c97f654 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+nginx-proxy-1         | 2025/04/01 14:52:51 [emerg] 151#151: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+dashboards-1          |   log   [14:52:57.705] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025-04-01 14:52:59,572 INFO spawned: 'nginx' with pid 152
+logstash-instance3-1  | [2025-04-01T14:52:59,750][INFO ][logstash.javapipeline    ] Pipeline `malcolm-beats` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance3-1  | [2025-04-01T14:52:59,879][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+dashboards-1          |   log   [14:53:00.202] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance3-1  | [2025-04-01T14:53:00,537][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-beats", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/beats/01_input_beats.conf", "/usr/share/logstash/malcolm-pipelines/beats/11_beats_logs.conf", "/usr/share/logstash/malcolm-pipelines/beats/12_lookups.conf", "/usr/share/logstash/malcolm-pipelines/beats/13_normalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/beats/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/99_beats_forward.conf"], :thread=>"#<Thread:0x56702c2d /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance1-1  | [2025-04-01T14:53:02,636][INFO ][logstash.javapipeline    ] Pipeline `malcolm-beats` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+dashboards-1          |   log   [14:53:02.729] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance1-1  | [2025-04-01T14:53:02,819][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:53:03,048][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>5.73}
+logstash-instance2-1  | [2025-04-01T14:53:03,085][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-beats"}
+logstash-instance1-1  | [2025-04-01T14:53:03,542][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-beats", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/beats/01_input_beats.conf", "/usr/share/logstash/malcolm-pipelines/beats/11_beats_logs.conf", "/usr/share/logstash/malcolm-pipelines/beats/12_lookups.conf", "/usr/share/logstash/malcolm-pipelines/beats/13_normalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/beats/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/beats/99_beats_forward.conf"], :thread=>"#<Thread:0x518e5b2b /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance3-1  | [2025-04-01T14:53:04,484][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>3.94}
+logstash-instance3-1  | [2025-04-01T14:53:04,491][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-beats"}
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:53:04,631 WARN exited: nginx (exit status 1; not expected)
+dashboards-1          |   log   [14:53:05.224] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025/04/01 14:52:59 [emerg] 152#152: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance1-1  | [2025-04-01T14:53:07,247][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>3.7}
+logstash-instance1-1  | [2025-04-01T14:53:07,264][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-beats"}
+dashboards-1          |   log   [14:53:07.712] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025-04-01 14:53:08,598 INFO spawned: 'nginx' with pid 153
+dashboards-1          |   log   [14:53:10.239] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+dashboards-1          |   log   [14:53:12.713] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:53:13,737 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:53:08 [emerg] 153#153: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+dashboards-1          |   log   [14:53:15.208] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+dashboards-1          |   log   [14:53:17.720] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025-04-01 14:53:18,604 INFO spawned: 'nginx' with pid 161
+dashboards-1          |   log   [14:53:20.220] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance3-1  | [2025-04-01T14:53:21,159][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-enrichment", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/enrichment/01_input_log_enrichment.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/11_lookups.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/12_type_conv.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/20_enriched_to_ecs.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/21_netbox.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/22_segment_comparison.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/23_severity.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/97_arkimize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/99_opensearch_forward.conf"], :thread=>"#<Thread:0x56f4297 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+dashboards-1          |   log   [14:53:22.711] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:53:23,679 WARN exited: nginx (exit status 1; not expected)
+nginx-proxy-1         | 2025/04/01 14:53:18 [emerg] 161#161: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+dashboards-1          |   log   [14:53:25.232] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance3-1  | [2025-04-01T14:53:26,429][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>5.26}
+logstash-instance3-1  | [2025-04-01T14:53:26,457][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-enrichment"}
+logstash-instance2-1  | [2025-04-01T14:53:26,632][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-enrichment", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/enrichment/01_input_log_enrichment.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/11_lookups.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/12_type_conv.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/20_enriched_to_ecs.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/21_netbox.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/22_segment_comparison.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/23_severity.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/97_arkimize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/99_opensearch_forward.conf"], :thread=>"#<Thread:0x24a15bb0 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+dashboards-1          |   log   [14:53:27.719] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+nginx-proxy-1         | 2025-04-01 14:53:29,604 INFO spawned: 'nginx' with pid 162
+dashboards-1          |   log   [14:53:30.216] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance1-1  | [2025-04-01T14:53:30,602][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-enrichment", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/enrichment/01_input_log_enrichment.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/11_lookups.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/12_type_conv.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/20_enriched_to_ecs.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/21_netbox.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/22_segment_comparison.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/23_severity.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/96_make_unique.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/97_arkimize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/98_finalize.conf", "/usr/share/logstash/malcolm-pipelines/enrichment/99_opensearch_forward.conf"], :thread=>"#<Thread:0x4e575cbc /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+dashboards-1          |   log   [14:53:32.755] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance2-1  | [2025-04-01T14:53:32,831][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>6.19}
+logstash-instance3-1  | [2025-04-01T14:53:32,867][INFO ][logstash.javapipeline    ] Pipeline `malcolm-zeek` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+logstash-instance2-1  | [2025-04-01T14:53:32,868][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-enrichment"}
+logstash-instance3-1  | [2025-04-01T14:53:33,238][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance3-1  | [2025-04-01T14:53:33,244][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance3-1  | [2025-04-01T14:53:34,104][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-zeek", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/zeek/0100_input_zeek.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1000_zeek_prep.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1001_zeek_parse.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1011_zeek_bacnet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1012_zeek_bestguess.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1013_zeek_bsap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1014_zeek_conn.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1015_zeek_dce_rpc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1016_zeek_dhcp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1017_zeek_diagnostic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1018_zeek_dnp3.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1019_zeek_dns.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1020_zeek_ecat.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1021_zeek_enip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1022_zeek_files.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1023_zeek_ftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1024_zeek_genisys.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1025_zeek_ge_srtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1026_zeek_gquic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1027_zeek_hart_ip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1028_zeek_http.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1029_zeek_intel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1030_zeek_ipsec.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1031_zeek_irc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1032_zeek_kerberos.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1033_zeek_known.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1034_zeek_ldap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1035_zeek_login.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1036_zeek_modbus.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1037_zeek_mqtt.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1038_zeek_mysql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1039_zeek_notice.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1040_zeek_ntlm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1041_zeek_ntp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1042_zeek_ocsp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1043_zeek_opcua_binary.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1044_zeek_ospf.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1045_zeek_pe.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1046_zeek_profinet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1047_zeek_radius.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1048_zeek_rdp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1049_zeek_rfb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1050_zeek_s7comm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1051_zeek_signatures.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1052_zeek_sip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1053_zeek_smb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1054_zeek_smtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1055_zeek_snmp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1056_zeek_socks.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1057_zeek_software.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1058_zeek_ssh.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1059_zeek_ssl.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1060_zeek_stun.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1061_zeek_synchrophasor.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1062_zeek_syslog.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1063_zeek_tds.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1064_zeek_tftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1065_zeek_tunnel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1066_zeek_weird.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1067_zeek_wireguard.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1068_zeek_x509.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1069_zeek_websocket.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1070_zeek_postgresql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1171_zeek_omron_fins.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1199_zeek_unknown.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1200_zeek_mutate.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1300_zeek_normalize.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1400_zeek_convert.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1900_severity.conf", "/usr/share/logstash/malcolm-pipelines/zeek/9900_zeek_forward.conf"], :thread=>"#<Thread:0x44684b52 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+logstash-instance1-1  | [2025-04-01T14:53:34,348][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>3.74}
+logstash-instance1-1  | [2025-04-01T14:53:34,353][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-enrichment"}
+nginx-proxy-1         | nginx: [emerg] host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+nginx-proxy-1         | 2025-04-01 14:53:34,680 WARN exited: nginx (exit status 1; not expected)
+dashboards-1          |   log   [14:53:35.231] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance2-1  | [2025-04-01T14:53:35,577][INFO ][logstash.javapipeline    ] Pipeline `malcolm-zeek` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+nginx-proxy-1         | 2025/04/01 14:53:29 [emerg] 162#162: host not found in upstream "logstash:9600" in /etc/nginx/nginx.conf:73
+logstash-instance2-1  | [2025-04-01T14:53:35,817][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:53:35,819][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance2-1  | [2025-04-01T14:53:36,465][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-zeek", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/zeek/0100_input_zeek.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1000_zeek_prep.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1001_zeek_parse.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1011_zeek_bacnet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1012_zeek_bestguess.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1013_zeek_bsap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1014_zeek_conn.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1015_zeek_dce_rpc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1016_zeek_dhcp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1017_zeek_diagnostic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1018_zeek_dnp3.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1019_zeek_dns.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1020_zeek_ecat.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1021_zeek_enip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1022_zeek_files.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1023_zeek_ftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1024_zeek_genisys.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1025_zeek_ge_srtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1026_zeek_gquic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1027_zeek_hart_ip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1028_zeek_http.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1029_zeek_intel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1030_zeek_ipsec.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1031_zeek_irc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1032_zeek_kerberos.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1033_zeek_known.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1034_zeek_ldap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1035_zeek_login.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1036_zeek_modbus.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1037_zeek_mqtt.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1038_zeek_mysql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1039_zeek_notice.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1040_zeek_ntlm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1041_zeek_ntp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1042_zeek_ocsp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1043_zeek_opcua_binary.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1044_zeek_ospf.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1045_zeek_pe.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1046_zeek_profinet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1047_zeek_radius.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1048_zeek_rdp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1049_zeek_rfb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1050_zeek_s7comm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1051_zeek_signatures.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1052_zeek_sip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1053_zeek_smb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1054_zeek_smtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1055_zeek_snmp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1056_zeek_socks.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1057_zeek_software.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1058_zeek_ssh.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1059_zeek_ssl.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1060_zeek_stun.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1061_zeek_synchrophasor.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1062_zeek_syslog.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1063_zeek_tds.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1064_zeek_tftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1065_zeek_tunnel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1066_zeek_weird.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1067_zeek_wireguard.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1068_zeek_x509.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1069_zeek_websocket.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1070_zeek_postgresql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1171_zeek_omron_fins.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1199_zeek_unknown.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1200_zeek_mutate.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1300_zeek_normalize.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1400_zeek_convert.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1900_severity.conf", "/usr/share/logstash/malcolm-pipelines/zeek/9900_zeek_forward.conf"], :thread=>"#<Thread:0x4554f7f9 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+dashboards-1          |   log   [14:53:37.725] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance1-1  | [2025-04-01T14:53:40,039][INFO ][logstash.javapipeline    ] Pipeline `malcolm-zeek` is configured with `pipeline.ecs_compatibility: disabled` setting. All plugins in this pipeline will default to `ecs_compatibility => disabled` unless explicitly configured otherwise.
+arkime-1              | Trace: OpenSearch/Elasticsearch Search Error - query: {
+arkime-1              |   "index": "arkime_stats",
+arkime-1              |   "body": {
+arkime-1              |     "query": {
+arkime-1              |       "match": {
+arkime-1              |         "hostname": "arkime"
+arkime-1              |       }
+arkime-1              |     },
+arkime-1              |     "profile": false
+arkime-1              |   },
+arkime-1              |   "rest_total_hits_as_int": true
+arkime-1              | } err: ConnectionError: getaddrinfo ENOTFOUND opensearch
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at Db.search (/opt/arkime/viewer/db.js:584:13)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+arkime-1              | Trace: OpenSearch/Elasticsearch Search Error - query: {
+arkime-1              |   "index": "arkime_queries",
+arkime-1              |   "body": {
+arkime-1              |     "size": 1000,
+arkime-1              |     "profile": false
+arkime-1              |   },
+arkime-1              |   "rest_total_hits_as_int": true
+arkime-1              | } err: ConnectionError: getaddrinfo ENOTFOUND opensearch
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+arkime-1              |     at Db.search (/opt/arkime/viewer/db.js:584:13)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+arkime-1              | CRON - processCronQueries ConnectionError: getaddrinfo ENOTFOUND opensearch
+arkime-1              |     at ClientRequest.onError (/opt/arkime/node_modules/@elastic/elasticsearch/lib/Connection.js:114:16)
+arkime-1              |     at ClientRequest.emit (node:events:518:28)
+arkime-1              |     at emitErrorEvent (node:_http_client:101:11)
+arkime-1              |     at Socket.socketErrorListener (node:_http_client:504:5)
+arkime-1              |     at Socket.emit (node:events:518:28)
+arkime-1              |     at emitErrorNT (node:internal/streams/destroy:169:8)
+arkime-1              |     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+arkime-1              |     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+arkime-1              |   meta: {
+arkime-1              |     body: null,
+arkime-1              |     statusCode: null,
+arkime-1              |     headers: null,
+arkime-1              |     meta: {
+arkime-1              |       context: null,
+arkime-1              |       request: [Object],
+arkime-1              |       name: 'elasticsearch-js',
+arkime-1              |       connection: [Object],
+arkime-1              |       attempts: 2,
+arkime-1              |       aborted: false
+arkime-1              |     }
+arkime-1              |   }
+arkime-1              | }
+dashboards-1          |   log   [14:53:40.232] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance1-1  | [2025-04-01T14:53:40,364][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance1-1  | [2025-04-01T14:53:40,367][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: send_to. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+logstash-instance1-1  | [2025-04-01T14:53:41,586][INFO ][logstash.javapipeline    ] Starting pipeline {:pipeline_id=>"malcolm-zeek", "pipeline.workers"=>3, "pipeline.batch.size"=>75, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>225, "pipeline.sources"=>["/usr/share/logstash/malcolm-pipelines/zeek/0100_input_zeek.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1000_zeek_prep.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1001_zeek_parse.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1011_zeek_bacnet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1012_zeek_bestguess.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1013_zeek_bsap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1014_zeek_conn.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1015_zeek_dce_rpc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1016_zeek_dhcp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1017_zeek_diagnostic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1018_zeek_dnp3.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1019_zeek_dns.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1020_zeek_ecat.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1021_zeek_enip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1022_zeek_files.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1023_zeek_ftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1024_zeek_genisys.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1025_zeek_ge_srtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1026_zeek_gquic.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1027_zeek_hart_ip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1028_zeek_http.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1029_zeek_intel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1030_zeek_ipsec.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1031_zeek_irc.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1032_zeek_kerberos.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1033_zeek_known.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1034_zeek_ldap.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1035_zeek_login.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1036_zeek_modbus.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1037_zeek_mqtt.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1038_zeek_mysql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1039_zeek_notice.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1040_zeek_ntlm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1041_zeek_ntp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1042_zeek_ocsp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1043_zeek_opcua_binary.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1044_zeek_ospf.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1045_zeek_pe.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1046_zeek_profinet.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1047_zeek_radius.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1048_zeek_rdp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1049_zeek_rfb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1050_zeek_s7comm.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1051_zeek_signatures.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1052_zeek_sip.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1053_zeek_smb.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1054_zeek_smtp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1055_zeek_snmp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1056_zeek_socks.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1057_zeek_software.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1058_zeek_ssh.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1059_zeek_ssl.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1060_zeek_stun.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1061_zeek_synchrophasor.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1062_zeek_syslog.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1063_zeek_tds.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1064_zeek_tftp.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1065_zeek_tunnel.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1066_zeek_weird.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1067_zeek_wireguard.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1068_zeek_x509.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1069_zeek_websocket.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1070_zeek_postgresql.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1171_zeek_omron_fins.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1199_zeek_unknown.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1200_zeek_mutate.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1300_zeek_normalize.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1400_zeek_convert.conf", "/usr/share/logstash/malcolm-pipelines/zeek/1900_severity.conf", "/usr/share/logstash/malcolm-pipelines/zeek/9900_zeek_forward.conf"], :thread=>"#<Thread:0x5711a6c0 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:138 run>"}
+nginx-proxy-1         | 2025-04-01 14:53:41,605 INFO spawned: 'nginx' with pid 170
+dashboards-1          |   log   [14:53:42.751] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+dashboards-1          |   log   [14:53:45.238] [error][data][opensearch] [ConnectionError]: getaddrinfo ENOTFOUND opensearch
+logstash-instance3-1  | [2025-04-01T14:53:45,503][INFO ][logstash.javapipeline    ] Pipeline Java execution initialization time {"seconds"=>11.39}
+logstash-instance3-1  | [2025-04-01T14:53:45,512][INFO ][logstash.javapipeline    ] Pipeline started {"pipeline.id"=>"malcolm-zeek"}
+logstash-instance3-1  | [2025-04-01T14:53:45,569][INFO ][logstash.agent           ] Pipelines running {:count=>6, :running_pipelines=>[:"malcolm-input", :"malcolm-output", :"malcolm-suricata", :"malcolm-enrichment", :"malcolm-beats", :"malcolm-zeek"], :non_running_pipelines=>[]}
+
+Started Malcolm
+
+
+Malcolm services can be accessed at https://192.168.1.51/
